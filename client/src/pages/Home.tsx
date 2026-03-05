@@ -340,7 +340,7 @@ export default function Home() {
               onMouseLeave={(e) => ((e.currentTarget as HTMLDivElement).style.background = COLOR.bgCard)}
             >
               {featured.thumbnail && (
-                <div style={{ width: "100%", height: "220px", overflow: "hidden" }}>
+                <div className="thumb-featured">
                   <img
                     src={featured.thumbnail}
                     alt={featured.altText}
@@ -431,7 +431,7 @@ export default function Home() {
                       {String(idx + 1).padStart(2, "0")}
                     </span>
                     {article.thumbnail && (
-                      <div style={{ width: "80px", height: "60px", flexShrink: 0, borderRadius: "3px", overflow: "hidden", border: `1px solid ${COLOR.border}` }}>
+                      <div className="thumb-list" style={{ flexShrink: 0, borderRadius: "3px", overflow: "hidden", border: `1px solid ${COLOR.border}` }}>
                         <img src={article.thumbnail} alt={article.altText} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} loading="lazy" />
                       </div>
                     )}

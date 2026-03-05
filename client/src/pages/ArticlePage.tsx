@@ -301,8 +301,8 @@ export default function ArticlePage() {
 
           {/* Hero image */}
           {article.thumbnail && (
-            <div style={{ marginBottom: "32px", borderRadius: "4px", overflow: "hidden", border: `1px solid ${COLOR.border}` }}>
-              <img src={article.thumbnail} alt={article.altText} style={{ width: "100%", aspectRatio: "16/9", objectFit: "cover", display: "block" }} />
+            <div className="thumb-hero" style={{ marginBottom: "32px", borderRadius: "4px", overflow: "hidden", border: `1px solid ${COLOR.border}` }}>
+              <img src={article.thumbnail} alt={article.altText} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
             </div>
           )}
 

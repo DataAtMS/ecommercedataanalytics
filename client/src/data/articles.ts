@@ -95,7 +95,7 @@ Each stage has a distinct psychological state. Entry is curiosity. Interest is e
 
 Google Analytics 4 provides the foundation, but default events miss most of the detail you need. You'll need to configure custom events through Google Tag Manager or your analytics platform's native event builder.
 
-Start with the events that GA4 doesn't track by default. If you haven't configured [enhanced ecommerce tracking](/articlesset-enhanced-ecommerce-tracking-works) yet, that's your first step. Without it, you're flying blind on cart and checkout behavior.
+Start with the events that GA4 doesn't track by default. If you haven't configured [enhanced ecommerce tracking](/articles/set-enhanced-ecommerce-tracking-works) yet, that's your first step. Without it, you're flying blind on cart and checkout behavior.
 
 ### Stage 1: Entry Events
 
@@ -157,7 +157,7 @@ To build cohort-specific funnel reports in GA4, you'll use the Exploration featu
 
 Here's what to look for: stage-by-stage drop-off rates that differ significantly between cohorts. If mobile users drop off at 82% between Interest and Intent while desktop drops at 65%, you've found a mobile-specific friction point.
 
-This connects directly to understanding [how traffic source affects behavior](/articlessegment-product-page-performance-traffic). A user who arrives from a price-comparison site behaves differently than one who arrives from an Instagram ad. Their funnel journeys should be analyzed separately.
+This connects directly to understanding [how traffic source affects behavior](/articles/segment-product-page-performance-traffic). A user who arrives from a price-comparison site behaves differently than one who arrives from an Instagram ad. Their funnel journeys should be analyzed separately.
 
 ## Metric Thresholds That Signal Problems
 
@@ -186,7 +186,7 @@ When users leave during the Interest stage (product page without adding to cart)
 - **Price objection**: users scrolled directly to price, spent less than 10 seconds, and exited. The price didn't match their expectation from the ad or search result.
 - **Missing information**: users scrolled looking for something specific (sizing, materials, shipping time), didn't find it, and exited.
 - **Distraction or comparison shopping**: users engaged with content but left to check competitors. These users may return; track their return rate.
-- **Technical friction**: page loaded slowly, images didn't display, or mobile layout broke. Check [site speed metrics](/articlessite-speed-metrics-actually-impact) for this segment.
+- **Technical friction**: page loaded slowly, images didn't display, or mobile layout broke. Check [site speed metrics](/articles/site-speed-metrics-actually-impact) for this segment.
 
 Session recordings can confirm these hypotheses. Watch 20-30 sessions from users who dropped at this stage. You'll see patterns within the first 10.
 
@@ -361,7 +361,7 @@ Second, GA4 still undercounts engagement on SPAs unless you manually fire events
 
 Third, GA4's bounce rate (reintroduced in 2023) is simply the inverse of engagement rate. The same limitations apply.
 
-If you need to [set enhanced ecommerce tracking](/articlesset-enhanced-ecommerce-tracking-works) properly, you will need to manually instrument these interactions. Out-of-the-box analytics gives you an incomplete picture.
+If you need to [set enhanced ecommerce tracking](/articles/set-enhanced-ecommerce-tracking-works) properly, you will need to manually instrument these interactions. Out-of-the-box analytics gives you an incomplete picture.
 
 ## Metrics That Actually Predict Purchase Behavior
 
@@ -467,7 +467,7 @@ Third, intent varies by landing page type. Category pages, product pages, blog p
 
 Instead of comparing to external benchmarks, compare your own performance over time and across segments. Is your product page engagement rate improving month over month? Do visitors from email engage more deeply than visitors from paid social? These internal comparisons generate actionable insights.
 
-When you need to [track conversion funnel drop-off](/articlestrack-ecommerce-conversion-funnel-dropoff), start with your own historical data as the baseline, not some industry report compiled from incompatible data sources.
+When you need to [track conversion funnel drop-off](/articles/track-ecommerce-conversion-funnel-dropoff), start with your own historical data as the baseline, not some industry report compiled from incompatible data sources.
 
 ## The Real Questions Bounce Rate Cannot Answer
 
@@ -483,11 +483,11 @@ Partially addressable by bounce rate, but scroll depth and first interaction tim
 
 **Are we losing visitors to technical issues?**
 
-Bounce rate conflates intentional departures with frustration exits. Core Web Vitals data, error logging, and [site speed metrics](/articlessite-speed-metrics-actually-impact) give you direct visibility into technical problems that cause visitors to leave.
+Bounce rate conflates intentional departures with frustration exits. Core Web Vitals data, error logging, and [site speed metrics](/articles/site-speed-metrics-actually-impact) give you direct visibility into technical problems that cause visitors to leave.
 
 **Should we invest more in this traffic source?**
 
-Never make acquisition decisions based on bounce rate. Look at [true customer acquisition source](/articlescalculate-true-customer-acquisition-source) data and actual revenue attribution. A high-bouncing channel that brings loyal customers is worth more than a low-bouncing channel that brings one-time bargain hunters.
+Never make acquisition decisions based on bounce rate. Look at [true customer acquisition source](/articles/calculate-true-customer-acquisition-source) data and actual revenue attribution. A high-bouncing channel that brings loyal customers is worth more than a low-bouncing channel that brings one-time bargain hunters.
 
 ## What to Report Instead
 
@@ -719,11 +719,11 @@ If you only look at last-touch reports, you will systematically undervalue top-o
 
 Attribution tells you which channels participated in conversions. It does not tell you whether those conversions would have happened anyway. Incrementality testing, where you withhold a channel from a holdout group and measure the difference, reveals true causal impact.
 
-If you are making budget decisions, understanding [how to calculate true ROAS](/articlescalculate-true-roas-including-refunds) requires both attribution data and incrementality context.
+If you are making budget decisions, understanding [how to calculate true ROAS](/articles/calculate-true-roas-including-refunds) requires both attribution data and incrementality context.
 
 ### Mistake 4: Forgetting About Traffic Quality
 
-A channel that drives 1,000 conversions at a 70% return rate is worse than a channel that drives 500 conversions at a 10% return rate. Tie your attribution data to [tracking funnel drop-off points](/articlestrack-ecommerce-conversion-funnel-dropoff) and post-purchase behavior to see the full picture.
+A channel that drives 1,000 conversions at a 70% return rate is worse than a channel that drives 500 conversions at a 10% return rate. Tie your attribution data to [tracking funnel drop-off points](/articles/track-ecommerce-conversion-funnel-dropoff) and post-purchase behavior to see the full picture.
 
 ## Putting It Into Practice
 
@@ -827,7 +827,7 @@ Stores with TTI over 7 seconds on mobile showed a 14.8% lower conversion rate th
 
 The culprit is usually JavaScript. Third party scripts for reviews, chat widgets, personalization engines, and analytics pile up. Each one competes for main thread time. The result is a page that looks loaded but does not respond to taps.
 
-To understand where visitors abandon when TTI is high, you need to track [conversion funnel drop-off](/articlestrack-ecommerce-conversion-funnel-dropoff) at each stage. The pattern typically shows abandonment spiking on product detail pages, not homepages.
+To understand where visitors abandon when TTI is high, you need to track [conversion funnel drop-off](/articles/track-ecommerce-conversion-funnel-dropoff) at each stage. The pattern typically shows abandonment spiking on product detail pages, not homepages.
 
 ## Cumulative Layout Shift: The Cart Page Problem
 
@@ -863,7 +863,7 @@ Mobile visitors have less patience and less tolerance for janky experiences. The
 
 The practical implication: if you have to choose where to optimize, choose mobile first. The conversion impact is larger, and mobile typically represents 60-75% of traffic for most ecommerce stores.
 
-You can verify this by examining how [product page performance varies by traffic source](/articlessegment-product-page-performance-traffic). Mobile sessions from paid social tend to be the most speed sensitive because users are in a scrolling mindset and will bounce quickly.
+You can verify this by examining how [product page performance varies by traffic source](/articles/segment-product-page-performance-traffic). Mobile sessions from paid social tend to be the most speed sensitive because users are in a scrolling mindset and will bounce quickly.
 
 ## Connection Speed Matters More Than You Think
 
@@ -881,7 +881,7 @@ But PageSpeed scores are lab measurements on simulated connections. They do not 
 
 More importantly, PageSpeed weights metrics according to Google's priorities, not revenue priorities. The scoring model gives significant weight to FCP and Speed Index, which we found have minimal correlation with conversion rates.
 
-Treating PageSpeed score as a KPI is like treating [bounce rate as a KPI](/articlesbounce-rate-misleading-ecommerce-sites). It is a composite metric that obscures what actually matters.
+Treating PageSpeed score as a KPI is like treating [bounce rate as a KPI](/articles/bounce-rate-misleading-ecommerce-sites). It is a composite metric that obscures what actually matters.
 
 A better approach is to focus on field metrics from Real User Monitoring. Use the Chrome User Experience Report (CrUX) data in Google Search Console, or implement your own RUM solution with tools like SpeedCurve or Web Vitals JS library. Track the specific metrics (LCP, TTI, CLS) on the specific pages (product, cart, checkout) that drive revenue.
 
@@ -1048,7 +1048,7 @@ Fixes include:
 - Ensuring price visibility in ads to filter out bargain hunters
 - Testing different audience segments
 
-You can learn more about tracking how visitors move through your purchase funnel in our guide on [conversion funnel drop-offs](/articlestrack-ecommerce-conversion-funnel-dropoff).
+You can learn more about tracking how visitors move through your purchase funnel in our guide on [conversion funnel drop-offs](/articles/track-ecommerce-conversion-funnel-dropoff).
 
 ## Setting Up Custom Channel Groupings for Cleaner Data
 
@@ -1069,7 +1069,7 @@ Create custom channel groupings in GA4 Admin under Data Display. Build groupings
 
 This granularity reveals patterns hidden in default groupings. Non-branded organic search might convert at half the rate of branded organic search, which tells you something about the search intent you are capturing.
 
-For more on properly attributing customer acquisition to the right source, see our breakdown of [true customer acquisition source calculation](/articlescalculate-true-customer-acquisition-source).
+For more on properly attributing customer acquisition to the right source, see our breakdown of [true customer acquisition source calculation](/articles/calculate-true-customer-acquisition-source).
 
 ## The Page Load Speed Variable You Cannot Ignore
 
@@ -1118,7 +1118,7 @@ A "bounce" in GA4 is now tied to engagement metrics rather than single-page sess
 
 But here is the problem: a visitor who lands, reads, and then opens a new tab to price-compare still looks like an engaged session even though they never converted. Meanwhile, a visitor who lands, immediately adds to cart, and leaves (to return later) looks like a fast session.
 
-Our analysis of [why bounce rate misleads ecommerce sites](/articlesbounce-rate-misleading-ecommerce-sites) explains this in depth. For traffic source analysis, focus on conversion rate and revenue per session rather than bounce rate.
+Our analysis of [why bounce rate misleads ecommerce sites](/articles/bounce-rate-misleading-ecommerce-sites) explains this in depth. For traffic source analysis, focus on conversion rate and revenue per session rather than bounce rate.
 
 ## Tracking Revenue Per Session by Channel
 
@@ -1381,7 +1381,7 @@ After implementing tracking on dozens of stores, certain patterns emerge. Here a
 
 **Fix:** Use page path conditions in your GTM triggers. For Shopify, use variables like \`{{Page Type}}\` to restrict triggers to product pages, cart pages, or checkout steps.
 
-Understanding why your [funnel drop-off points](/articlestrack-ecommerce-conversion-funnel-dropoff) matter helps you prioritize which events need the most rigorous tracking.
+Understanding why your [funnel drop-off points](/articles/track-ecommerce-conversion-funnel-dropoff) matter helps you prioritize which events need the most rigorous tracking.
 
 ## QA Testing Before Launch
 
@@ -1445,7 +1445,7 @@ If the gap exceeds 20%, something is broken. Common culprits:
 - Mobile browsers blocking third-party cookies
 - JavaScript errors preventing the dataLayer push
 
-Your [traffic source segmentation](/articlessegment-product-page-performance-traffic) can reveal which channels have the largest tracking gaps.
+Your [traffic source segmentation](/articles/segment-product-page-performance-traffic) can reveal which channels have the largest tracking gaps.
 
 ## Advanced Configuration: User Properties and Custom Dimensions
 
@@ -1599,7 +1599,7 @@ The key implementation details:
 
 **Measure revenue, not just conversions.** Conversion rate lift does not capture average order value differences. Calculate total revenue for both groups, then compute the incremental revenue per subscriber.
 
-Understanding these nuances connects directly to broader conversion tracking challenges. If you are setting up measurement systems, review guidance on [setting up enhanced ecommerce tracking](/articlesset-enhanced-ecommerce-tracking-works) to ensure your transaction data feeds accurately into these calculations.
+Understanding these nuances connects directly to broader conversion tracking challenges. If you are setting up measurement systems, review guidance on [setting up enhanced ecommerce tracking](/articles/set-enhanced-ecommerce-tracking-works) to ensure your transaction data feeds accurately into these calculations.
 
 ## Incrementality by Email Type
 
@@ -1615,7 +1615,7 @@ According to a 2023 study by Omnisend, email campaign types show different incre
 
 **Transactional and post-purchase emails** often show negative or negligible incremental lift for subsequent purchases. Customers who just bought are in a refractory period. Cross-sell emails sent too soon may be credited with organic repeat purchases.
 
-This connects to a broader truth about email metrics: [click rate alone does not predict revenue](/articlesemail-click-rate-doesnt-predict). Incrementality testing reveals what clicks actually lead to purchases that would not otherwise occur.
+This connects to a broader truth about email metrics: [click rate alone does not predict revenue](/articles/email-click-rate-doesnt-predict). Incrementality testing reveals what clicks actually lead to purchases that would not otherwise occur.
 
 ## Multi-Touch Attribution as a Middle Ground
 
@@ -1636,7 +1636,7 @@ In GA4, you can compare attribution models in the Advertising reports. This show
 
 The limitation: multi-touch attribution still cannot tell you about the counterfactual. It redistributes credit among touchpoints but does not answer whether the customer would have converted with one fewer touchpoint. Only holdout testing answers that question.
 
-Accurate source tracking is foundational here. Review how to [calculate true customer acquisition source](/articlescalculate-true-customer-acquisition-source) to ensure your multi-touch models are working with clean data.
+Accurate source tracking is foundational here. Review how to [calculate true customer acquisition source](/articles/calculate-true-customer-acquisition-source) to ensure your multi-touch models are working with clean data.
 
 ## The Incrementality Calculation Formula
 
@@ -1677,7 +1677,7 @@ If your email list is under 10,000 subscribers, holdout tests become statistical
 
 **Focus on the extremes.** If you must prioritize, run holdout tests on your highest-value campaigns (abandoned cart, win-back) where the data is most actionable.
 
-This incremental measurement mindset applies beyond email. The same logic helps you [measure abandoned cart email incremental lift](/articlesmeasure-abandoned-cart-email-incremental) with specific cart recovery workflows.
+This incremental measurement mindset applies beyond email. The same logic helps you [measure abandoned cart email incremental lift](/articles/measure-abandoned-cart-email-incremental) with specific cart recovery workflows.
 
 ## Reporting True Contribution to Stakeholders
 
@@ -1792,7 +1792,7 @@ To get useful click data:
 
 **Measure click-to-open rate carefully**: CTOR (clicks divided by opens) was once a standard engagement metric. Post-MPP, it understates true engagement because the denominator is artificially inflated. Track it, but don't optimize against it.
 
-Understanding why [email click rate doesn't predict revenue](/articlesemail-click-rate-doesnt-predict) directly helps you build a more complete measurement framework. Clicks get you closer to truth than opens, but they're still an intermediate metric.
+Understanding why [email click rate doesn't predict revenue](/articles/email-click-rate-doesnt-predict) directly helps you build a more complete measurement framework. Clicks get you closer to truth than opens, but they're still an intermediate metric.
 
 ## Click Patterns: Beyond the Single Metric
 
@@ -1822,7 +1822,7 @@ Measure conversion time as the gap between email send and purchase completion. S
 | Weekly newsletter | 48-72 hours | Builds relationship, not immediate action |
 | Win-back campaign | 72+ hours | Re-engagement is a slow process |
 
-When you [calculate email marketing contribution to revenue](/articlescalculate-email-marketing-contribution-revenue), conversion time helps you attribute purchases correctly. A subscriber who opens your email on Monday and buys on Thursday may have been influenced by your email, but they may also have seen a retargeting ad on Wednesday. Shorter conversion times make attribution cleaner.
+When you [calculate email marketing contribution to revenue](/articles/calculate-email-marketing-contribution-revenue), conversion time helps you attribute purchases correctly. A subscriber who opens your email on Monday and buys on Thursday may have been influenced by your email, but they may also have seen a retargeting ad on Wednesday. Shorter conversion times make attribution cleaner.
 
 ## Read Length: Measuring Actual Content Engagement
 
@@ -1867,7 +1867,7 @@ Replace your open-rate-centric dashboard with a multi-metric framework that capt
 - Unsubscribe rate
 - Open rate (trend only, not absolute value)
 
-When you [segment email performance by customer purchase stage](/articlessegment-email-performance-customer-purchase), you'll find that engagement metrics vary dramatically between prospects, first-time buyers, and repeat customers. Measure each segment separately.
+When you [segment email performance by customer purchase stage](/articles/segment-email-performance-customer-purchase), you'll find that engagement metrics vary dramatically between prospects, first-time buyers, and repeat customers. Measure each segment separately.
 
 ## Practical Steps to Adapt Your Reporting
 
@@ -1891,7 +1891,7 @@ Apple's changes were first, but they won't be last. Google announced similar pro
 
 Brands that build measurement frameworks dependent on surveillance-style tracking will face repeated disruptions. Brands that measure outcomes, revenue, repeat purchases, and customer lifetime value will adapt more easily.
 
-This connects to a broader shift in ecommerce analytics. Understanding [why your bounce rate is misleading](/articlesbounce-rate-misleading-ecommerce-sites) comes from the same insight: surface metrics that once seemed reliable often hide more than they reveal. The best ecommerce operators measure what matters to the business, not what's easiest to track.
+This connects to a broader shift in ecommerce analytics. Understanding [why your bounce rate is misleading](/articles/bounce-rate-misleading-ecommerce-sites) comes from the same insight: surface metrics that once seemed reliable often hide more than they reveal. The best ecommerce operators measure what matters to the business, not what's easiest to track.
 
 ## What Comes Next
 
@@ -2034,7 +2034,7 @@ First-time buyers have uncertain intent. Your email might be the difference betw
 
 Lapsed customers have near-zero baseline intent. Almost all revenue from a successful winback campaign is incremental. But the absolute numbers are small because conversion rates are so low.
 
-To calculate true incrementality, you need holdout testing. Take 10% of each segment and exclude them from a campaign. Compare their purchase rate to the group that received the email. The difference is your true incremental lift for that segment. If you want to learn more about measuring this accurately, read our breakdown on [measuring incremental lift](/articlesmeasure-abandoned-cart-email-incremental).
+To calculate true incrementality, you need holdout testing. Take 10% of each segment and exclude them from a campaign. Compare their purchase rate to the group that received the email. The difference is your true incremental lift for that segment. If you want to learn more about measuring this accurately, read our breakdown on [measuring incremental lift](/articles/measure-abandoned-cart-email-incremental).
 
 ## Common Mistakes in Segment Performance Analysis
 
@@ -2050,11 +2050,11 @@ If your promotional email goes to a mixed audience, and you AB test subject line
 
 **Mistake 3: Ignoring the non-buyer segment.**
 
-Subscribers who've never purchased are often the largest segment. Their performance data tells you whether your acquisition sources are bringing in qualified leads or dead weight. Low engagement from non-buyers might indicate an [acquisition source problem](/articlescalculate-true-customer-acquisition-source), not an email problem.
+Subscribers who've never purchased are often the largest segment. Their performance data tells you whether your acquisition sources are bringing in qualified leads or dead weight. Low engagement from non-buyers might indicate an [acquisition source problem](/articles/calculate-true-customer-acquisition-source), not an email problem.
 
 **Mistake 4: Confusing engagement with value.**
 
-Open rates feel important. They're easy to understand. But after Apple's Mail Privacy Protection update in 2021, open rate reliability has collapsed for a significant portion of your list. Segment your analysis by deviceclient if possible, and weight conversion metrics more heavily than engagement metrics. Understanding [what open rates actually mean](/articlesopen-rates-mean-after-apple) after these changes is critical to accurate reporting.
+Open rates feel important. They're easy to understand. But after Apple's Mail Privacy Protection update in 2021, open rate reliability has collapsed for a significant portion of your list. Segment your analysis by deviceclient if possible, and weight conversion metrics more heavily than engagement metrics. Understanding [what open rates actually mean](/articles/open-rates-mean-after-apple) after these changes is critical to accurate reporting.
 
 **Mistake 5: Not accounting for list fatigue.**
 
@@ -2118,7 +2118,7 @@ Your repeat customer email performance affects retention cost calculations. If y
 
 Your lapsed customer email performance affects churn recovery economics. If winback campaigns cost \$0.50 per recipient (including discounts) and only 0.5% convert, you can calculate whether it's worth continuing those sends.
 
-To fully understand how email contributes to your business, you need to connect these segment metrics to your overall [email marketing revenue contribution](/articlescalculate-email-marketing-contribution-revenue) analysis.
+To fully understand how email contributes to your business, you need to connect these segment metrics to your overall [email marketing revenue contribution](/articles/calculate-email-marketing-contribution-revenue) analysis.
 
 ## The Role of Purchase Stage in Deliverability
 
@@ -2187,7 +2187,7 @@ The standard playbook for send time testing goes like this: split your list into
 
 This approach has three fatal flaws.
 
-First, open tracking is broken. Apple's Mail Privacy Protection pre-fetches email content, registering an open even when the recipient never sees the message. According to [Litmus research on email client market share](https://www.litmus.comemail-client-market-share), Apple Mail accounts for over 55% of email opens tracked globally. That means more than half of your open data is noise. Understanding [what open rates mean after Apple](/articlesopen-rates-mean-after-apple) is essential before drawing any conclusions from that metric.
+First, open tracking is broken. Apple's Mail Privacy Protection pre-fetches email content, registering an open even when the recipient never sees the message. According to [Litmus research on email client market share](https://www.litmus.comemail-client-market-share), Apple Mail accounts for over 55% of email opens tracked globally. That means more than half of your open data is noise. Understanding [what open rates mean after Apple](/articles/open-rates-mean-after-apple) is essential before drawing any conclusions from that metric.
 
 Second, opens do not correlate with revenue. A 7 AM email might show a 25% open rate because people check their inbox first thing in the morning. But those same people are getting dressed, eating breakfast, and heading to work. They are not buying. An 8 PM email might show a 20% open rate but generate twice the revenue because recipients are relaxed, browsing, and ready to purchase.
 
@@ -2205,7 +2205,7 @@ RPE = Total Attributed Revenue / Emails Delivered
 
 This metric captures what you actually care about. It accounts for the full chain from delivery to open to click to purchase. An email that gets opened but not clicked contributes nothing. An email that gets clicked but not converted contributes nothing. RPE measures the end result.
 
-You need proper attribution tracking to calculate this. Most ecommerce platforms track email-attributed revenue using a combination of UTM parameters and a post-click attribution window, typically 24 to 72 hours. Make sure your [email marketing contribution to revenue](/articlescalculate-email-marketing-contribution-revenue) is accurately tracked before running send time tests.
+You need proper attribution tracking to calculate this. Most ecommerce platforms track email-attributed revenue using a combination of UTM parameters and a post-click attribution window, typically 24 to 72 hours. Make sure your [email marketing contribution to revenue](/articles/calculate-email-marketing-contribution-revenue) is accurately tracked before running send time tests.
 
 Here is a comparison of how the same send time test might look using different metrics:
 
@@ -2301,7 +2301,7 @@ Run your send time analysis separately for these segments:
 
 **Lapsed customers:** Win-back campaigns often perform better on weekends and evenings when people have time to reconsider brands they have drifted from.
 
-Segmenting your [email performance by customer purchase stage](/articlessegment-email-performance-customer-purchase) reveals these patterns and lets you build send time rules per segment rather than forcing a one-size-fits-all approach.
+Segmenting your [email performance by customer purchase stage](/articles/segment-email-performance-customer-purchase) reveals these patterns and lets you build send time rules per segment rather than forcing a one-size-fits-all approach.
 
 ## Statistical Significance and Confidence Intervals
 
@@ -2355,7 +2355,7 @@ Some marketers pivot from open rate to click rate as the success metric. This is
 
 Click rate tells you that someone was interested enough to visit your site. It does not tell you whether they converted. A 3 PM send might generate clicks from people killing time at work who have no intention of buying. An 8 PM send might generate fewer clicks but more purchases because the clickers are ready to buy.
 
-You can see this pattern clearly when you [analyze why click rate does not predict revenue](/articlesemail-click-rate-doesnt-predict). The click-to-purchase conversion rate varies dramatically by context. Send time is one of the biggest contextual factors.
+You can see this pattern clearly when you [analyze why click rate does not predict revenue](/articles/email-click-rate-doesnt-predict). The click-to-purchase conversion rate varies dramatically by context. Send time is one of the biggest contextual factors.
 
 Revenue per email captures the full journey. Use it as your primary metric. Track click rate as a secondary diagnostic to understand where in the funnel your results are coming from.
 
@@ -2461,7 +2461,7 @@ Notice the pattern. Re-engagement campaigns have the highest click rates and the
 
 The campaigns optimized for clicks (new products, educational content, re-engagement) consistently underperform on revenue. The campaigns optimized for purchase behavior (abandoned cart, loyalty rewards, flash sales with clear offers) consistently outperform despite lower raw click numbers.
 
-This data suggests that [email marketing contribution to revenue](/articlescalculate-email-marketing-contribution-revenue) requires looking beyond surface metrics.
+This data suggests that [email marketing contribution to revenue](/articles/calculate-email-marketing-contribution-revenue) requires looking beyond surface metrics.
 
 ## Why High-Click Campaigns Generate Low Revenue
 
@@ -2517,7 +2517,7 @@ This seems obvious. But I audited 30 ecommerce brand email programs last year an
 
 If your email says "New summer arrivals starting at \$29," the landing page headline should reinforce "Summer arrivals starting at \$29." Visual continuity matters too. The hero product image in your email should appear prominently on the landing page.
 
-This principle relates directly to [bounce rate analysis](/articlesbounce-rate-misleading-ecommerce-sites). When email promises don't match landing page delivery, people leave.
+This principle relates directly to [bounce rate analysis](/articles/bounce-rate-misleading-ecommerce-sites). When email promises don't match landing page delivery, people leave.
 
 ### Change 3: Make Offers Explicit
 
@@ -2541,7 +2541,7 @@ Abandoned cart emails go to people who already demonstrated purchase intent (the
 
 Every quality signal aligns. That's why abandoned cart emails have both the highest click rates and highest conversion rates in the table above.
 
-Understanding [incremental lift from abandoned cart emails](/articlesmeasure-abandoned-cart-email-incremental) requires separating the people who would have purchased anyway from those the email actually converted. But the fundamental point holds: abandoned cart emails work because the audience, the link destination, and the offer all align with purchase behavior.
+Understanding [incremental lift from abandoned cart emails](/articles/measure-abandoned-cart-email-incremental) requires separating the people who would have purchased anyway from those the email actually converted. But the fundamental point holds: abandoned cart emails work because the audience, the link destination, and the offer all align with purchase behavior.
 
 ## Building a Click Quality Dashboard
 
@@ -2591,7 +2591,7 @@ Revenue attribution requires integration with your ecommerce platform. It's mess
 
 Don't let your platform's default dashboard define your success metrics. Configure custom reports that show revenue metrics alongside engagement metrics. If your platform doesn't support this, connect your email data to your analytics stack manually.
 
-Understanding how to [set up ecommerce tracking correctly](/articlesset-enhanced-ecommerce-tracking-works) makes revenue-based email measurement possible.
+Understanding how to [set up ecommerce tracking correctly](/articles/set-enhanced-ecommerce-tracking-works) makes revenue-based email measurement possible.
 
 ## Testing Click Quality Hypotheses
 
@@ -2811,7 +2811,7 @@ Test this by splitting your flow. Half receive the discount email. Half receive 
 
 If your abandoned cart emails show 20% relative lift and your cart abandonment SMS shows 35% relative lift, you know where to invest. True incrementality data lets you allocate budget to the channels that actually move the needle.
 
-This connects directly to understanding [email marketing contribution to revenue](/articlescalculate-email-marketing-contribution-revenue) at the portfolio level, not just the flow level.
+This connects directly to understanding [email marketing contribution to revenue](/articles/calculate-email-marketing-contribution-revenue) at the portfolio level, not just the flow level.
 
 ## Building an Incrementality Testing Calendar
 
@@ -2832,9 +2832,9 @@ The Q4 test is especially important. Holiday shopping behavior differs from the 
 
 Abandoned cart emails address one specific drop-off point. But cart abandonment is a symptom, not a root cause. Understanding why customers abandon in the first place often yields bigger wins than optimizing recovery emails.
 
-Analyze your [conversion funnel drop-off points](/articlestrack-ecommerce-conversion-funnel-dropoff) to identify where customers lose interest or encounter friction. If 60% of your add-to-cart traffic never reaches checkout, fixing that bottleneck may deliver more revenue than a perfectly tuned recovery sequence.
+Analyze your [conversion funnel drop-off points](/articles/track-ecommerce-conversion-funnel-dropoff) to identify where customers lose interest or encounter friction. If 60% of your add-to-cart traffic never reaches checkout, fixing that bottleneck may deliver more revenue than a perfectly tuned recovery sequence.
 
-Similarly, [segmenting email performance by customer purchase stage](/articlessegment-email-performance-customer-purchase) helps you understand whether your cart abandonment emails perform differently for first-time visitors versus repeat customers. The incremental lift for each segment may vary significantly.
+Similarly, [segmenting email performance by customer purchase stage](/articles/segment-email-performance-customer-purchase) helps you understand whether your cart abandonment emails perform differently for first-time visitors versus repeat customers. The incremental lift for each segment may vary significantly.
 
 ## The Uncomfortable Math of True ROI
 
@@ -3035,7 +3035,7 @@ A proper true ROAS dashboard needs these metrics, updated at least weekly:
 
 The delta column is the insight. A campaign where true ROAS is 95% of standard ROAS attracts healthy customers. A campaign where true ROAS is 60% of standard ROAS has a problem worth investigating.
 
-Set alerts for campaigns where the delta exceeds a threshold, say 20%. These need immediate creative or targeting review. Understanding how to [calculate true customer acquisition source](/articlescalculate-true-customer-acquisition-source) becomes critical here, since misattributed conversions can throw off your return rate calculations entirely.
+Set alerts for campaigns where the delta exceeds a threshold, say 20%. These need immediate creative or targeting review. Understanding how to [calculate true customer acquisition source](/articles/calculate-true-customer-acquisition-source) becomes critical here, since misattributed conversions can throw off your return rate calculations entirely.
 
 ## Time Lag and Attribution Windows
 
@@ -3055,7 +3055,7 @@ Once you track true ROAS consistently, patterns emerge that reshape how you spen
 
 **Product-market fit by channel.** Some products perform beautifully on TikTok. Others attract the wrong audience there but thrive on Pinterest. True ROAS by product and channel shows where your content resonates with the right people.
 
-**Creative quality signals.** High return rates on specific creatives suggest the ad overpromises or misleads. These creatives might hit your ROAS targets initially but cost you money in the back end. Tracking [conversion funnel drop-off](/articlestrack-ecommerce-conversion-funnel-dropoff) alongside return data helps identify where expectations break down.
+**Creative quality signals.** High return rates on specific creatives suggest the ad overpromises or misleads. These creatives might hit your ROAS targets initially but cost you money in the back end. Tracking [conversion funnel drop-off](/articles/track-ecommerce-conversion-funnel-dropoff) alongside return data helps identify where expectations break down.
 
 **Customer quality by source.** Lifetime value starts with the first order. Customers who return their first purchase rarely become your best customers. True ROAS is a leading indicator of which acquisition channels build a healthy customer base.
 
@@ -3287,7 +3287,7 @@ Here is a sample workflow:
 
 Track your variance over time. A consistent 20% discrepancy is normal and manageable. A sudden spike to 50% indicates a tracking problem that needs investigation.
 
-When you spot anomalies, investigate immediately. The longer a tracking bug runs, the more polluted your data becomes. If you notice your [conversion funnel drop-off points](/articlestrack-ecommerce-conversion-funnel-dropoff) have changed dramatically, a tracking misconfiguration might be the cause rather than an actual customer behavior shift.
+When you spot anomalies, investigate immediately. The longer a tracking bug runs, the more polluted your data becomes. If you notice your [conversion funnel drop-off points](/articles/track-ecommerce-conversion-funnel-dropoff) have changed dramatically, a tracking misconfiguration might be the cause rather than an actual customer behavior shift.
 
 ## Integrating Multiple Attribution Sources
 
@@ -3298,7 +3298,7 @@ Each platform claims credit for conversions using its own methodology. The same 
 The solution is a unified attribution model outside of any single platform. Options include:
 
 - Triple Whale or Northbeam for post-purchase attribution surveys
-- GA4 with [proper customer acquisition tracking](/articlescalculate-true-customer-acquisition-source)
+- GA4 with [proper customer acquisition tracking](/articles/calculate-true-customer-acquisition-source)
 - Rockerbox or Measured for media mix modeling
 
 These tools help you understand the true contribution of each channel rather than accepting each platform's self-reported numbers.
@@ -3427,7 +3427,7 @@ Evening hours (7 PM to 11 PM) are when serious buying happens. People are home, 
 
 Late night hours (12 AM to 5 AM) are wildcard territory. Volume is low, but the people shopping at 2 AM are often making deliberate purchases. They researched during the day and returned when they had quiet time to finalize the order. AOV is often highest in these hours.
 
-Understanding the specific patterns in your [customer acquisition funnel](/articlescalculate-true-customer-acquisition-source) gives you the context to interpret what your hourly data means.
+Understanding the specific patterns in your [customer acquisition funnel](/articles/calculate-true-customer-acquisition-source) gives you the context to interpret what your hourly data means.
 
 ## Day of Week Compounds the Pattern
 
@@ -3487,7 +3487,7 @@ At the same CPC, Hour B generates 67% more revenue per click. If your margin is 
 
 AOV variation by hour reflects who is shopping, not just whether they buy. Late-night shoppers often have higher household incomes and less price sensitivity. Weekend morning shoppers may be stocking up rather than making impulse purchases. Understanding these buyer archetypes helps you interpret the numbers.
 
-When you [segment product page performance by traffic source](/articlessegment-product-page-performance-traffic), you can see how paid search visitors from different hours interact with your catalog. High-AOV hours might show visitors viewing more product pages or adding multiple items to cart.
+When you [segment product page performance by traffic source](/articles/segment-product-page-performance-traffic), you can see how paid search visitors from different hours interact with your catalog. High-AOV hours might show visitors viewing more product pages or adding multiple items to cart.
 
 ## Common Mistakes in Dayparting Execution
 
@@ -3543,7 +3543,7 @@ Apply lighter adjustments (+/- 10-20%) when using Smart Bidding than you would w
 
 Dayparting insights become more powerful when connected to your conversion funnel data. You might find that morning traffic has low conversion rates because visitors abandon at the shipping page, not because they are uninterested.
 
-Analyzing [ecommerce funnel drop-off points](/articlestrack-ecommerce-conversion-funnel-dropoff) by hour of day reveals whether the problem is traffic quality or site experience. If checkout abandonment is 40% at noon but 25% at 9 PM, the issue might be that lunch-break shoppers do not have time to complete checkout, not that they are poor prospects.
+Analyzing [ecommerce funnel drop-off points](/articles/track-ecommerce-conversion-funnel-dropoff) by hour of day reveals whether the problem is traffic quality or site experience. If checkout abandonment is 40% at noon but 25% at 9 PM, the issue might be that lunch-break shoppers do not have time to complete checkout, not that they are poor prospects.
 
 This insight changes your response. Instead of bidding down at noon, you might shorten your checkout flow or add a cart-saving feature that lets visitors complete purchases later.
 
@@ -3641,7 +3641,7 @@ Here is the workflow:
 
 This requires either custom SQL queries or a customer data platform (CDP) that can perform the matching automatically. Platforms like Segment, Klaviyo, and some advanced analytics tools offer this capability.
 
-When you [calculate true customer acquisition source](/articlescalculate-true-customer-acquisition-source), you often discover that channels you thought were performing similarly have wildly different new customer profiles. This realization reshapes budget allocation.
+When you [calculate true customer acquisition source](/articles/calculate-true-customer-acquisition-source), you often discover that channels you thought were performing similarly have wildly different new customer profiles. This realization reshapes budget allocation.
 
 ## Method 3: Exclusion Audience Testing
 
@@ -3731,7 +3731,7 @@ When brands first separate new from returning customer CAC, patterns emerge that
 
 **Meta's strength varies by creative type.** Video and UGC content tends to reach colder audiences. Static product ads perform better in retargeting. The same platform can have vastly different new customer rates depending on creative strategy.
 
-Understanding these dynamics helps you [segment product page performance](/articlessegment-product-page-performance-traffic) more accurately. A visitor from a cold prospecting campaign behaves differently than a retargeted returning customer, even if they land on the same page.
+Understanding these dynamics helps you [segment product page performance](/articles/segment-product-page-performance-traffic) more accurately. A visitor from a cold prospecting campaign behaves differently than a retargeted returning customer, even if they land on the same page.
 
 ## Allocating Budget Based on New Customer CAC
 
@@ -3760,7 +3760,7 @@ Email is the extreme example. Email marketing drives conversions at near-zero CA
 
 The solution: separate acquisition and retention budgets entirely. Hold paid channels accountable for new customer CAC. Hold email, SMS, and loyalty programs accountable for repeat purchase rate and customer lifetime value. Do not mix the two.
 
-For deeper analysis of retention channel performance, explore how to [calculate email marketing contribution](/articlescalculate-email-marketing-contribution-revenue) without inflating acquisition metrics.
+For deeper analysis of retention channel performance, explore how to [calculate email marketing contribution](/articles/calculate-email-marketing-contribution-revenue) without inflating acquisition metrics.
 
 ## Tracking New Customer CAC Over Time
 
@@ -3902,7 +3902,7 @@ Here is the basic protocol:
 
 Most major advertising platforms now support holdout testing, though the feature is often buried in advanced settings.
 
-In Google Ads, you can create an experiment using the "Lift measurement" feature under the Tools menu. This requires linking to your Google Analytics property and setting up conversion tracking correctly. If you have not already configured proper [enhanced ecommerce tracking](/articlesset-enhanced-ecommerce-tracking-works), you will need to do that first.
+In Google Ads, you can create an experiment using the "Lift measurement" feature under the Tools menu. This requires linking to your Google Analytics property and setting up conversion tracking correctly. If you have not already configured proper [enhanced ecommerce tracking](/articles/set-enhanced-ecommerce-tracking-works), you will need to do that first.
 
 Meta (Facebook) offers "Conversion Lift" studies through their Experiments section. You request a study from your account representative or set one up in the Experiments hub. Meta randomly holds out a percentage of your audience and provides incrementality reports.
 
@@ -3957,7 +3957,7 @@ Run sub-analyses on:
 
 **Customer status.** First-time visitors behave differently than returning customers. Retargeting may be more incremental for new visitor acquisition than for repeat purchase reminder.
 
-This segmentation helps you [segment product page performance by traffic source](/articlessegment-product-page-performance-traffic) and reallocate budget toward the segments where retargeting actually works.
+This segmentation helps you [segment product page performance by traffic source](/articles/segment-product-page-performance-traffic) and reallocate budget toward the segments where retargeting actually works.
 
 ## What To Do With Low Incrementality Results
 
@@ -3979,7 +3979,7 @@ The gold standard is continuous holdout: permanently suppressing a small percent
 
 At minimum, run quarterly incrementality tests to validate that your retargeting is still performing. Consumer behavior shifts, especially during promotional periods. Your Q4 incrementality during Black Friday may look very different from your Q2 incrementality.
 
-Track incrementality alongside your other core metrics. Just as you monitor [conversion funnel drop-off points](/articlestrack-ecommerce-conversion-funnel-dropoff), you should monitor whether your paid media is actually moving the needle.
+Track incrementality alongside your other core metrics. Just as you monitor [conversion funnel drop-off points](/articles/track-ecommerce-conversion-funnel-dropoff), you should monitor whether your paid media is actually moving the needle.
 
 ## The Broader Implication for Advertising Data
 
@@ -3989,7 +3989,7 @@ Every advertising channel has incentive to take credit for conversions. Platform
 
 The same incrementality framework applies to other channels:
 
-- Email marketing: are your abandoned cart emails driving purchases or just claiming credit? See how to [measure abandoned cart email incremental lift](/articlesmeasure-abandoned-cart-email-incremental) for the email equivalent of this testing.
+- Email marketing: are your abandoned cart emails driving purchases or just claiming credit? See how to [measure abandoned cart email incremental lift](/articles/measure-abandoned-cart-email-incremental) for the email equivalent of this testing.
 - Paid social: would your Instagram followers have purchased through organic means anyway?
 - Brand search: are you paying for clicks from people who were already typing your URL?
 
@@ -4057,7 +4057,7 @@ Different campaigns attract different buyers. Your prospecting campaign targetin
 
 A \$30 CPA on a campaign that generates \$45 average orders is drastically different from a \$30 CPA on a campaign generating \$180 average orders. The raw CPA number is identical. The economics are not remotely comparable.
 
-When you [segment product page performance by traffic source](/articlessegment-product-page-performance-traffic), you often discover that different ad sets send traffic to completely different product mixes. One creative might resonate with buyers of your entry-level products. Another might attract your premium segment. Same funnel, same site, wildly different profitability.
+When you [segment product page performance by traffic source](/articles/segment-product-page-performance-traffic), you often discover that different ad sets send traffic to completely different product mixes. One creative might resonate with buyers of your entry-level products. Another might attract your premium segment. Same funnel, same site, wildly different profitability.
 
 ### Variable 2: COGS Differences Across Product Categories
 
@@ -4132,7 +4132,7 @@ Platform CPA counts a conversion at the moment of purchase. It does not adjust w
 
 Return rates vary wildly by product category, by creative angle, and by audience segment. Apparel brands routinely see 25-40% return rates. A campaign that attracts size-uncertain buyers might have 35% returns while a campaign targeting repeat customers might have 12% returns.
 
-When you [calculate true customer acquisition source](/articlescalculate-true-customer-acquisition-source), factor in net revenue, not gross revenue. A \$50 CPA on orders with 30% returns and a \$50 CPA on orders with 10% returns are not equivalent. The effective CPA on retained revenue is \$71.43 versus \$55.56.
+When you [calculate true customer acquisition source](/articles/calculate-true-customer-acquisition-source), factor in net revenue, not gross revenue. A \$50 CPA on orders with 30% returns and a \$50 CPA on orders with 10% returns are not equivalent. The effective CPA on retained revenue is \$71.43 versus \$55.56.
 
 Track returns by campaign. Build this into your contribution margin calculation. If you cannot attribute returns to specific campaigns, at least apply category-level return rates based on the product mix each campaign drives.
 
@@ -4168,7 +4168,7 @@ The most sophisticated ecommerce brands build internal dashboards that surface c
 
 Update this weekly. Look for campaigns where platform CPA and contribution margin move in opposite directions. Those are the campaigns where platform metrics are most misleading.
 
-Setting up proper [enhanced ecommerce tracking](/articlesset-enhanced-ecommerce-tracking-works) is the foundation. Without accurate revenue data flowing into your analytics, you cannot build this view.
+Setting up proper [enhanced ecommerce tracking](/articles/set-enhanced-ecommerce-tracking-works) is the foundation. Without accurate revenue data flowing into your analytics, you cannot build this view.
 
 ## Scaling Decisions: When to Trust CPA and When to Ignore It
 
@@ -4273,7 +4273,7 @@ Immediate conversion revenue is what your platform already reports. But two othe
 
 **Lifetime value impact** tracks whether SMS subscribers become more valuable over time. This requires cohort analysis: compare the 12-month LTV of customers who subscribed to SMS versus those who didn't, controlling for other variables like acquisition source and first order value.
 
-If you want to understand how attribution works across your marketing mix, the same principles apply when you [calculate email marketing contribution](/articlescalculate-email-marketing-contribution-revenue) to revenue.
+If you want to understand how attribution works across your marketing mix, the same principles apply when you [calculate email marketing contribution](/articles/calculate-email-marketing-contribution-revenue) to revenue.
 
 ## Breaking Down List Acquisition Costs
 
@@ -4375,7 +4375,7 @@ Your true SMS-driven revenue: (Attributed revenue) × (Incremental lift percenta
 
 If your platform says SMS generated \$200,000 but your holdout test shows 15% incremental lift, your true SMS revenue is \$30,000.
 
-The principles here mirror what you see when analyzing [email click rates and their revenue relationship](/articlesemail-click-rate-doesnt-predict). Channel metrics often overstate true impact.
+The principles here mirror what you see when analyzing [email click rates and their revenue relationship](/articles/email-click-rate-doesnt-predict). Channel metrics often overstate true impact.
 
 ## Calculating Lifetime Value Impact
 
@@ -4436,7 +4436,7 @@ If your true ROI calculation looks grim, these levers move the needle:
 
 **Increase per-subscriber value:** Focus on high-margin products in SMS campaigns. Use SMS for exclusive drops, restock alerts, and high-intent moments rather than blanket promotions.
 
-Tracking these improvements requires the same rigor applied to [funnel drop-off analysis](/articlestrack-ecommerce-conversion-funnel-dropoff) in your broader conversion strategy.
+Tracking these improvements requires the same rigor applied to [funnel drop-off analysis](/articles/track-ecommerce-conversion-funnel-dropoff) in your broader conversion strategy.
 
 ## Setting Up Your Tracking Infrastructure
 
@@ -4543,7 +4543,7 @@ These numbers vary by vertical. Fashion and beauty brands tend to see higher pop
 
 If your opt-in rates fall below the benchmark range for your primary acquisition channel, that's your first diagnostic target. The issue could be offer strength, popup timing, form friction, or audience mismatch.
 
-This connects directly to how you [track ecommerce conversion funnel drop-off](/articlestrack-ecommerce-conversion-funnel-dropoff). SMS opt-in is a micro-conversion in your funnel. If it's underperforming, the same diagnostic framework applies: measure where users drop, test hypotheses, iterate.
+This connects directly to how you [track ecommerce conversion funnel drop-off](/articles/track-ecommerce-conversion-funnel-dropoff). SMS opt-in is a micro-conversion in your funnel. If it's underperforming, the same diagnostic framework applies: measure where users drop, test hypotheses, iterate.
 
 ## Opt-Out Rates That Signal Problems
 
@@ -4622,7 +4622,7 @@ Cohort degradation usually happens when:
 - Acquisition tactics become more aggressive (bigger discounts, more intrusive popups)
 - Competitive pressure forces harder selling
 
-The fix requires going upstream to acquisition quality. This is similar to the diagnostic approach for [calculating true customer acquisition source](/articlescalculate-true-customer-acquisition-source). Understanding where your best subscribers come from lets you double down on quality sources.
+The fix requires going upstream to acquisition quality. This is similar to the diagnostic approach for [calculating true customer acquisition source](/articles/calculate-true-customer-acquisition-source). Understanding where your best subscribers come from lets you double down on quality sources.
 
 ## Frequency Impact on Growth Rate
 
@@ -4658,7 +4658,7 @@ Benchmarks for monthly revenue per SMS subscriber:
 
 If your revenue per subscriber is declining while growth rate is positive, you have a quality problem. The fix isn't more acquisition. It's better acquisition and better retention of high-value subscribers.
 
-This metric pairs well with understanding [email marketing contribution to revenue](/articlescalculate-email-marketing-contribution-revenue). SMS and email should be evaluated with the same attribution rigor.
+This metric pairs well with understanding [email marketing contribution to revenue](/articles/calculate-email-marketing-contribution-revenue). SMS and email should be evaluated with the same attribution rigor.
 
 ## Warning Signs of List Burnout
 
@@ -4770,7 +4770,7 @@ Consider this scenario: A customer opens your email on Tuesday morning, browses 
 
 But would they have purchased anyway? Maybe they would have returned to the email that evening. Maybe they would have come back directly. The SMS might have accelerated the purchase, but it may not have caused it.
 
-This is cannibalization in action. Your SMS channel is claiming credit for conversions that your email program would have captured. Your total revenue stays flat while your channel-level reports show explosive growth. Understanding the difference between [email marketing contribution](/articlescalculate-email-marketing-contribution-revenue) and true incremental lift is essential before you can measure cross-channel effects.
+This is cannibalization in action. Your SMS channel is claiming credit for conversions that your email program would have captured. Your total revenue stays flat while your channel-level reports show explosive growth. Understanding the difference between [email marketing contribution](/articles/calculate-email-marketing-contribution-revenue) and true incremental lift is essential before you can measure cross-channel effects.
 
 ## Why Standard Attribution Models Fail Here
 
@@ -4874,7 +4874,7 @@ For abandoned cart flows, which represent a major cannibalization risk, stagger 
 
 The SMS touch is conditional on email non-engagement. This preserves email attribution for engaged customers and reserves SMS spend for truly unreachable segments.
 
-Understanding [abandoned cart email incremental lift](/articlesmeasure-abandoned-cart-email-incremental) before adding SMS helps you establish a baseline for what your email program can achieve alone.
+Understanding [abandoned cart email incremental lift](/articles/measure-abandoned-cart-email-incremental) before adding SMS helps you establish a baseline for what your email program can achieve alone.
 
 ## Customer Segment Analysis: Where Cannibalization Varies
 
@@ -4986,7 +4986,7 @@ The brands that solve cannibalization share common patterns:
 
 5. **Regular Testing**: Quarterly holdout tests update the cannibalization rate. The number isn't assumed static.
 
-Understanding [true customer acquisition source](/articlescalculate-true-customer-acquisition-source) at a customer level helps you build segmentation rules that reduce channel overlap.
+Understanding [true customer acquisition source](/articles/calculate-true-customer-acquisition-source) at a customer level helps you build segmentation rules that reduce channel overlap.
 
 ## Moving From Measurement to Action
 
@@ -5146,13 +5146,13 @@ Every segment is profitable in this example. But the efficiency varies by 13x be
 
 SMS doesn't exist in isolation. Customers receive emails, see ads, visit your site organically. Understanding how SMS interacts with other channels is critical for accurate contribution measurement.
 
-The concept you need is [customer acquisition source tracking](/articlescalculate-true-customer-acquisition-source). When you know how a customer originally found you, you can analyze whether SMS performs differently based on acquisition channel.
+The concept you need is [customer acquisition source tracking](/articles/calculate-true-customer-acquisition-source). When you know how a customer originally found you, you can analyze whether SMS performs differently based on acquisition channel.
 
 For example, customers acquired through paid social often respond better to visual channels like Instagram DMs than SMS. Customers acquired through search may prefer email. Customers who opted into SMS at checkout (high intent) often outperform those who joined via a pop-up offer (lower intent).
 
 Layer this data onto your segment analysis. You might find that VIP customers acquired via email are less responsive to SMS than VIP customers acquired via referral. These nuances matter when you're deciding not just who to message, but which channel to use.
 
-Similarly, your [email marketing contribution analysis](/articlescalculate-email-marketing-contribution-revenue) should inform SMS strategy. If email already reaches a segment effectively at near-zero marginal cost, the incremental value of SMS for that segment decreases. Use the channel that delivers the best return per dollar, not the best vanity metrics.
+Similarly, your [email marketing contribution analysis](/articles/calculate-email-marketing-contribution-revenue) should inform SMS strategy. If email already reaches a segment effectively at near-zero marginal cost, the incremental value of SMS for that segment decreases. Use the channel that delivers the best return per dollar, not the best vanity metrics.
 
 ## Common Mistakes in SMS Segment Tracking
 
@@ -5172,7 +5172,7 @@ Once you understand which segments justify SMS costs, build that intelligence in
 
 For **VIP customers**, SMS works best for time-sensitive alerts: early access to sales, low-stock notifications on products they've browsed, and exclusive drops. These create urgency that email can't match. Avoid promotional blasts; they don't move the needle for customers who already plan to buy.
 
-For **active repeat customers**, SMS earns its keep in cart abandonment and post-purchase flows. The [incremental lift measurement approach](/articlesmeasure-abandoned-cart-email-incremental) you use for email applies to SMS as well. Test SMS versus email for these triggers; you may find SMS wins on abandonment but email wins on post-purchase.
+For **active repeat customers**, SMS earns its keep in cart abandonment and post-purchase flows. The [incremental lift measurement approach](/articles/measure-abandoned-cart-email-incremental) you use for email applies to SMS as well. Test SMS versus email for these triggers; you may find SMS wins on abandonment but email wins on post-purchase.
 
 For **one-time buyers** with recent purchase dates, SMS can accelerate the path to second purchase. Focus on product education and cross-sells relevant to their first purchase. Customers who bought once in the last 90 days are reactivation targets; customers who bought once 18 months ago probably need a different strategy.
 
@@ -5260,7 +5260,7 @@ Sophisticated SMS programs segment subscribers by engagement level and adjust fr
 | At-risk | No click in 60+ days | 1 messagemonth (re-engagement only) | 1-4% |
 | Dormant | No click in 90+ days | Suppress or sunset campaign | NA |
 
-This segmentation mirrors what works in [email performance segmentation](/articlessegment-email-performance-customer-purchase), where purchase stage determines cadence. The principles translate directly to SMS, with the added urgency that SMS mistakes are punished faster.
+This segmentation mirrors what works in [email performance segmentation](/articles/segment-email-performance-customer-purchase), where purchase stage determines cadence. The principles translate directly to SMS, with the added urgency that SMS mistakes are punished faster.
 
 ## The Timing Trap: Why Sending More Feels Right
 
@@ -5270,7 +5270,7 @@ This logic fails because it ignores the second-order effects. Each message gener
 
 Most brands cannot see this inflection point because they track revenue attribution per campaign but not list health metrics over time. They celebrate a campaign that drove \$10,000 in revenue without noticing it also caused 200 unsubscribes and suppressed engagement from 1,500 other subscribers.
 
-This is why your [funnel analysis](/articlestrack-ecommerce-conversion-funnel-dropoff) needs to include SMS as a distinct channel with its own decay metrics, not just a revenue line item.
+This is why your [funnel analysis](/articles/track-ecommerce-conversion-funnel-dropoff) needs to include SMS as a distinct channel with its own decay metrics, not just a revenue line item.
 
 ## How to Measure SMS List Decay
 
@@ -5322,7 +5322,7 @@ The content-frequency interaction works like this: high-quality, relevant messag
 
 This means your segmentation should inform content, not just cadence. High-engagement VIP subscribers should receive early access, exclusive drops, and personalized recommendations. Low-engagement subscribers should receive only your highest-converting offer types until they prove they want more.
 
-The [email click rate](/articlesemail-click-rate-doesnt-predict) principle applies here too: clicks do not equal revenue. A message can get clicks but fail to convert if the landing experience is wrong for that subscriber's intent.
+The [email click rate](/articles/email-click-rate-doesnt-predict) principle applies here too: clicks do not equal revenue. A message can get clicks but fail to convert if the landing experience is wrong for that subscriber's intent.
 
 ## The Role of List Acquisition Quality
 
@@ -5345,7 +5345,7 @@ The device and operating system your subscribers use affect how they experience 
 
 These platform differences do not change the fundamentals of frequency optimization, but they do affect benchmarks. If your list skews heavily iOS (common for premium brands), expect slightly lower engagement rates and adjust your decay expectations accordingly.
 
-You cannot control how phone manufacturers display notifications. You can control send timing. Testing different send times by device type (when your platform supports it) can recover 5-10% of lost engagement. The [email send time analysis](/articlesidentify-most-profitable-email-send) methodology works here, though SMS tends to have narrower optimal windows.
+You cannot control how phone manufacturers display notifications. You can control send timing. Testing different send times by device type (when your platform supports it) can recover 5-10% of lost engagement. The [email send time analysis](/articles/identify-most-profitable-email-send) methodology works here, though SMS tends to have narrower optimal windows.
 
 ## What the Data Says About Recovery
 
@@ -5441,7 +5441,7 @@ Each SMS platform uses different default attribution windows. Attentive might cl
 
 These differences make vendor-reported revenue numbers incomparable. You need to standardize attribution windows across platforms and compare them to your own data warehouse.
 
-The gold standard is to match SMS-attributed purchases against your source of truth: your Shopify or payment processor data. Calculate revenue per subscriber using the same window for each platform you test. This connects directly to how you might [calculate email marketing contribution to revenue](/articlescalculate-email-marketing-contribution-revenue) since the methodology is nearly identical.
+The gold standard is to match SMS-attributed purchases against your source of truth: your Shopify or payment processor data. Calculate revenue per subscriber using the same window for each platform you test. This connects directly to how you might [calculate email marketing contribution to revenue](/articles/calculate-email-marketing-contribution-revenue) since the methodology is nearly identical.
 
 ### 4. Cost Per Incremental Dollar
 
@@ -5610,7 +5610,7 @@ Adjust weights based on your situation. If you have had compliance issues, incre
 
 Your SMS comparison data becomes more valuable when connected to broader analytics. Understanding how SMS interacts with other channels reveals optimization opportunities.
 
-Track whether SMS subscribers who do not click still purchase through other channels. This measures the "reminder" effect of SMS even without direct attribution. Understanding these [conversion funnel drop-off points](/articlestrack-ecommerce-conversion-funnel-dropoff) helps you see where SMS fits in the customer journey.
+Track whether SMS subscribers who do not click still purchase through other channels. This measures the "reminder" effect of SMS even without direct attribution. Understanding these [conversion funnel drop-off points](/articles/track-ecommerce-conversion-funnel-dropoff) helps you see where SMS fits in the customer journey.
 
 Connect SMS performance data to your customer segments. High-LTV customers might respond differently than first-time buyers. This segmentation reveals whether SMS is generating new value or just accelerating purchases from existing loyal customers.
 
@@ -5801,7 +5801,7 @@ Customers acquired through different channels exhibit different behaviors:
 
 This table reveals critical strategic insights. Email capture produces customers worth nearly three times as much as Meta ad customers. Influencer customers spend big initially but rarely come back. Organic search customers have strong retention.
 
-If you use a single blended LTV for CAC decisions, you will overspend on Meta and underspend on channels that produce better long-term customers. Understanding your [true customer acquisition source](/articlescalculate-true-customer-acquisition-source) becomes essential when LTV varies this much by channel.
+If you use a single blended LTV for CAC decisions, you will overspend on Meta and underspend on channels that produce better long-term customers. Understanding your [true customer acquisition source](/articles/calculate-true-customer-acquisition-source) becomes essential when LTV varies this much by channel.
 
 ## The Cohort Analysis That Reveals Hidden Value
 
@@ -5821,7 +5821,7 @@ You will discover patterns invisible in aggregate data:
 
 These patterns inform acquisition strategy. Maybe you stop running discount campaigns that attract one-time bargain hunters. Maybe you shift budget away from Q4 prospecting toward Q1 when you attract better long-term customers.
 
-The concept applies to retention too. When you [segment email performance by customer purchase stage](/articlessegment-email-performance-customer-purchase), you see exactly which campaigns drive repeat purchases from which cohorts.
+The concept applies to retention too. When you [segment email performance by customer purchase stage](/articles/segment-email-performance-customer-purchase), you see exactly which campaigns drive repeat purchases from which cohorts.
 
 ## Common LTV Calculation Mistakes
 
@@ -5860,11 +5860,11 @@ If CAC is \$50 and first-year gross profit is \$40, your payback period is 1.25 
 
 LTV does not exist in isolation. It connects directly to every other metric in your business.
 
-Your [conversion funnel drop-off points](/articlestrack-ecommerce-conversion-funnel-dropoff) affect LTV because the friction that stops first purchases also stops repeat purchases. A confusing checkout reduces reorder rates.
+Your [conversion funnel drop-off points](/articles/track-ecommerce-conversion-funnel-dropoff) affect LTV because the friction that stops first purchases also stops repeat purchases. A confusing checkout reduces reorder rates.
 
-Your product page performance affects which products customers discover and buy first, which influences their margin profile and retention. Understanding how to [segment product page performance by traffic source](/articlessegment-product-page-performance-traffic) helps you identify which entry points lead to high-LTV customers.
+Your product page performance affects which products customers discover and buy first, which influences their margin profile and retention. Understanding how to [segment product page performance by traffic source](/articles/segment-product-page-performance-traffic) helps you identify which entry points lead to high-LTV customers.
 
-Your email marketing drives repeat purchases. Measuring [email marketing contribution to revenue](/articlescalculate-email-marketing-contribution-revenue) tells you how much of your LTV comes from retention campaigns vs. organic repeat behavior.
+Your email marketing drives repeat purchases. Measuring [email marketing contribution to revenue](/articles/calculate-email-marketing-contribution-revenue) tells you how much of your LTV comes from retention campaigns vs. organic repeat behavior.
 
 Everything connects. LTV is not a standalone metric but a synthesis of acquisition quality, product economics, and retention execution.
 
@@ -6037,7 +6037,7 @@ If contribution margin per order is the better metric, what should you actually 
 
 This metric combines your conversion rate with your contribution margin per order to show the economic value of each website visit. A 2% conversion rate with \$25 average contribution yields \$0.50 per session. A 2.5% conversion rate with \$20 average contribution yields the same \$0.50.
 
-Understanding your [conversion funnel drop-off points](/articlestrack-ecommerce-conversion-funnel-dropoff) helps identify where you are losing contribution margin potential, not just conversion rate.
+Understanding your [conversion funnel drop-off points](/articles/track-ecommerce-conversion-funnel-dropoff) helps identify where you are losing contribution margin potential, not just conversion rate.
 
 ### 2. Gross Margin Return on Ad Spend (GMROAS)
 
@@ -6049,7 +6049,7 @@ The second campaign looks worse on traditional ROAS but actually generates 55% m
 
 Customer lifetime value calculations typically use revenue. But a customer who buys \$500/year using discount codes and triggering free shipping is worth less than a customer who buys \$350/year at full price with paid shipping.
 
-Track [email marketing contribution to revenue](/articlescalculate-email-marketing-contribution-revenue) by customer segment to understand which channels bring in high-margin versus low-margin repeat buyers.
+Track [email marketing contribution to revenue](/articles/calculate-email-marketing-contribution-revenue) by customer segment to understand which channels bring in high-margin versus low-margin repeat buyers.
 
 ### 4. Margin Mix by Product Category
 
@@ -6153,7 +6153,7 @@ The danger is real. Brands routinely overspend on acquisition because they belie
 
 A cohort-based model tracks each group separately. You can see that January 2024 customers reached \$85 in cumulative spend by month six, while March 2024 customers only reached \$62. That difference tells you something changed in your acquisition mix, your product assortment, or your retention marketing. Without cohort isolation, you would never catch it.
 
-This directly impacts how you [calculate true customer acquisition source](/articlescalculate-true-customer-acquisition-source). If you cannot attribute customers to their original acquisition channel accurately, your cohort LTV curves will blend channel-specific behaviors into meaningless averages.
+This directly impacts how you [calculate true customer acquisition source](/articles/calculate-true-customer-acquisition-source). If you cannot attribute customers to their original acquisition channel accurately, your cohort LTV curves will blend channel-specific behaviors into meaningless averages.
 
 ## The Core Architecture of a Cohort LTV Model
 
@@ -6298,7 +6298,7 @@ This is where the real insight lives. Different cohorts have different payback p
 
 ## Applying Cohort LTV to Channel Budget Decisions
 
-Once you have cohort-level LTV and payback data, you can segment by acquisition channel. This requires accurate attribution data. If you are [tracking conversion funnel drop-off](/articlestrack-ecommerce-conversion-funnel-dropoff) properly, you have the source data to build channel-specific cohorts.
+Once you have cohort-level LTV and payback data, you can segment by acquisition channel. This requires accurate attribution data. If you are [tracking conversion funnel drop-off](/articles/track-ecommerce-conversion-funnel-dropoff) properly, you have the source data to build channel-specific cohorts.
 
 Create separate cohort matrices for each major channel: Paid Social, Paid Search, Organic, Email, and so on. Run the same projection methodology on each.
 
@@ -6498,7 +6498,7 @@ Tactics that work:
 - Shift budget toward higher-converting channels
 - Build organic traffic through content and SEO
 
-Understanding where your actual customers come from matters here. If you're [calculating true customer acquisition source](/articlescalculate-true-customer-acquisition-source), you can shift spend toward channels that produce customers, not just traffic.
+Understanding where your actual customers come from matters here. If you're [calculating true customer acquisition source](/articles/calculate-true-customer-acquisition-source), you can shift spend toward channels that produce customers, not just traffic.
 
 ### Increase Average Order Value
 
@@ -6514,7 +6514,7 @@ Renegotiate supplier costs, reduce return rates, optimize shipping spend. A marg
 
 The leverage here is enormous. If year-one purchase frequency increases from 1.4 to 2.0, payback drops from 12 months to 8.4 months.
 
-Email marketing drives repeat purchases more reliably than any other channel. If you're [measuring how email contributes to revenue](/articlescalculate-email-marketing-contribution-revenue), you can quantify exactly how much your retention efforts shorten payback.
+Email marketing drives repeat purchases more reliably than any other channel. If you're [measuring how email contributes to revenue](/articles/calculate-email-marketing-contribution-revenue), you can quantify exactly how much your retention efforts shorten payback.
 
 ## Common CAC Payback Mistakes to Avoid
 
@@ -6705,7 +6705,7 @@ Common hidden loser profiles:
 
 **The Discount Addict**: Products that only move with 30% off coupons. The discounted price often falls below the full-cost breakeven point.
 
-Understanding where your [conversion funnel drops off](/articlestrack-ecommerce-conversion-funnel-dropoff) helps you identify which products attract tire-kickers who return at high rates versus buyers who convert and keep.
+Understanding where your [conversion funnel drops off](/articles/track-ecommerce-conversion-funnel-dropoff) helps you identify which products attract tire-kickers who return at high rates versus buyers who convert and keep.
 
 ## Channel-Level Profitability Differences
 
@@ -6798,7 +6798,7 @@ Segment your profitability analysis by:
 - Geography (shipping costs vary by zone)
 - Acquisition source (paid vs. organic)
 
-Knowing your [true customer acquisition source](/articlescalculate-true-customer-acquisition-source) lets you allocate marketing costs accurately to orders. A customer acquired through paid social has a different cost structure than one who came through organic search.
+Knowing your [true customer acquisition source](/articles/calculate-true-customer-acquisition-source) lets you allocate marketing costs accurately to orders. A customer acquired through paid social has a different cost structure than one who came through organic search.
 
 ## What Good Looks Like
 
@@ -6916,7 +6916,7 @@ Here's the data structure you need:
 
 Most analytics platforms can't do this out of the box. You'll need either a data warehouse setup or a dedicated customer analytics tool.
 
-Google Analytics 4 captures the raw events but lacks the cohort persistence logic. You'll need to export data to BigQuery and build the cohort assignments there. If you're still running Universal Analytics exports, now is the time to [set up enhanced ecommerce tracking](/articlesset-enhanced-ecommerce-tracking-works) that captures the customer identifiers you'll need.
+Google Analytics 4 captures the raw events but lacks the cohort persistence logic. You'll need to export data to BigQuery and build the cohort assignments there. If you're still running Universal Analytics exports, now is the time to [set up enhanced ecommerce tracking](/articles/set-enhanced-ecommerce-tracking-works) that captures the customer identifiers you'll need.
 
 ## The Three NRR Benchmarks That Matter
 
@@ -6970,7 +6970,7 @@ Common causes of contraction:
 
 Tracking contraction by cohort and by customer segment lets you spot systemic problems. If contraction spikes for customers acquired through a specific channel, you may have an audience-message mismatch. If contraction correlates with specific product purchases, you may have quality or expectation issues with those SKUs.
 
-The fix starts with understanding where your [funnel drop-offs](/articlestrack-ecommerce-conversion-funnel-dropoff) occur for returning visitors versus new ones.
+The fix starts with understanding where your [funnel drop-offs](/articles/track-ecommerce-conversion-funnel-dropoff) occur for returning visitors versus new ones.
 
 ## Building Your NRR Dashboard
 
@@ -7024,7 +7024,7 @@ A customer segment with high expansion tendency is worth far more than their fir
 
 This affects channel allocation. If email-acquired customers have 15% higher NRR than paid social customers, the true LTV gap is larger than first-order AOV suggests. You can afford to pay more for email subscribers.
 
-Understanding [email marketing's contribution to revenue](/articlescalculate-email-marketing-contribution-revenue) becomes critical once you're optimizing for NRR, because email is typically your highest-NRR channel.
+Understanding [email marketing's contribution to revenue](/articles/calculate-email-marketing-contribution-revenue) becomes critical once you're optimizing for NRR, because email is typically your highest-NRR channel.
 
 ## Advanced: Predictive NRR Indicators
 
