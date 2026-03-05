@@ -1,0 +1,339 @@
+{
+  "siteTitle": "Ecommerce Data Analytics: Data-backed guides on how to read ecommerce data",
+  "siteDescription": "Your website is your biggest money-maker, but it's important to understand all metrics for your Ecommerce business. This website teaches you how to grow your business by understanding your key metrics. ",
+  "siteUrl": "https://ecommercedataanalytics.com",
+  "generatedAt": "2026-03-05T10:49:31.296Z",
+  "articles": [
+    {
+      "slug": "track-ecommerce-conversion-funnel-dropoff",
+      "title": "How to Track Ecommerce Conversion Funnel Drop-Off Points",
+      "metaDescription": "Learn how to track conversion funnel dropoff points using event tracking and cohort analysis. Discover specific metric thresholds that signal purchase flow problems.",
+      "categorySlug": "web-analytics",
+      "categoryLabel": "Web Analytics",
+      "datePublished": "2026-03-05",
+      "dateModified": "2026-03-05",
+      "url": "https://ecommercedataanalytics.com/articles/track-ecommerce-conversion-funnel-dropoff"
+    },
+    {
+      "slug": "bounce-rate-misleading-ecommerce-sites",
+      "title": "Why Your Bounce Rate Is Misleading for Ecommerce Sites",
+      "metaDescription": "Standard ecommerce bounce rate metrics fail for modern SPAs and AJAX stores. Learn which engagement metrics actually predict purchase behavior and revenue.",
+      "categorySlug": "web-analytics",
+      "categoryLabel": "Web Analytics",
+      "datePublished": "2026-03-04",
+      "dateModified": "2026-03-04",
+      "url": "https://ecommercedataanalytics.com/articles/bounce-rate-misleading-ecommerce-sites"
+    },
+    {
+      "slug": "calculate-true-customer-acquisition-source",
+      "title": "How to Calculate True Customer Acquisition Source in GA4",
+      "metaDescription": "Learn to track customer acquisition sources accurately in GA4 using multi-touch attribution models that capture dark social and cross-device journeys.",
+      "categorySlug": "web-analytics",
+      "categoryLabel": "Web Analytics",
+      "datePublished": "2026-03-03",
+      "dateModified": "2026-03-03",
+      "url": "https://ecommercedataanalytics.com/articles/calculate-true-customer-acquisition-source"
+    },
+    {
+      "slug": "site-speed-metrics-actually-impact",
+      "title": "What Site Speed Metrics Actually Impact Ecommerce Revenue",
+      "metaDescription": "Data analysis of 50+ stores reveals which site speed metrics correlate with conversion rates. Learn the specific Core Web Vitals thresholds that affect revenue.",
+      "categorySlug": "web-analytics",
+      "categoryLabel": "Web Analytics",
+      "datePublished": "2026-03-01",
+      "dateModified": "2026-03-01",
+      "url": "https://ecommercedataanalytics.com/articles/site-speed-metrics-actually-impact"
+    },
+    {
+      "slug": "segment-product-page-performance-traffic",
+      "title": "How to Segment Product Page Performance by Traffic Source",
+      "metaDescription": "Learn to segment product page performance by traffic source in GA4. Build custom reports that reveal why pages convert from paid ads but fail from organic search.",
+      "categorySlug": "web-analytics",
+      "categoryLabel": "Web Analytics",
+      "datePublished": "2026-02-28",
+      "dateModified": "2026-02-28",
+      "url": "https://ecommercedataanalytics.com/articles/segment-product-page-performance-traffic"
+    },
+    {
+      "slug": "set-enhanced-ecommerce-tracking-works",
+      "title": "How to Set Up Enhanced Ecommerce Tracking That Works",
+      "metaDescription": "Learn the complete enhanced ecommerce tracking setup process for GA4. This implementation checklist covers dataLayer configuration, common firing issues, and QA testing.",
+      "categorySlug": "web-analytics",
+      "categoryLabel": "Web Analytics",
+      "datePublished": "2026-02-26",
+      "dateModified": "2026-02-26",
+      "url": "https://ecommercedataanalytics.com/articles/set-enhanced-ecommerce-tracking-works"
+    },
+    {
+      "slug": "calculate-email-marketing-contribution-revenue",
+      "title": "How to Calculate Email Marketing Contribution to Revenue",
+      "metaDescription": "Learn email marketing revenue attribution methods that isolate email's incremental impact. Calculate true contribution by accounting for customers who would have bought anyway.",
+      "categorySlug": "email-marketing-data",
+      "categoryLabel": "Email Marketing Data",
+      "datePublished": "2026-02-25",
+      "dateModified": "2026-02-25",
+      "url": "https://ecommercedataanalytics.com/articles/calculate-email-marketing-contribution-revenue"
+    },
+    {
+      "slug": "open-rates-mean-after-apple",
+      "title": "What Open Rates Mean After Apple Mail Privacy Changes",
+      "metaDescription": "Apple Mail Privacy Protection inflated email open rates overnight. Learn which engagement metrics like click patterns and conversion time now predict revenue better.",
+      "categorySlug": "email-marketing-data",
+      "categoryLabel": "Email Marketing Data",
+      "datePublished": "2026-02-23",
+      "dateModified": "2026-02-23",
+      "url": "https://ecommercedataanalytics.com/articles/open-rates-mean-after-apple"
+    },
+    {
+      "slug": "segment-email-performance-customer-purchase",
+      "title": "How to Segment Email Performance by Customer Purchase Stage",
+      "metaDescription": "Learn to segment email performance by customer purchase stage. This framework separates first-time buyers, repeat customers, and lapsed segments for better ROI.",
+      "categorySlug": "email-marketing-data",
+      "categoryLabel": "Email Marketing Data",
+      "datePublished": "2026-02-22",
+      "dateModified": "2026-02-22",
+      "url": "https://ecommercedataanalytics.com/articles/segment-email-performance-customer-purchase"
+    },
+    {
+      "slug": "identify-most-profitable-email-send",
+      "title": "How to Identify Your Most Profitable Email Send Time",
+      "metaDescription": "Learn to optimize email send time using revenue per email, not just opens. Statistical methodology for testing across time zones and customer segments.",
+      "categorySlug": "email-marketing-data",
+      "categoryLabel": "Email Marketing Data",
+      "datePublished": "2026-02-20",
+      "dateModified": "2026-02-20",
+      "url": "https://ecommercedataanalytics.com/articles/identify-most-profitable-email-send"
+    },
+    {
+      "slug": "email-click-rate-doesnt-predict",
+      "title": "Why Your Email Click Rate Doesn't Predict Revenue",
+      "metaDescription": "High email click rates often fail to generate revenue. Learn why click quality, landing page match, and offer positioning determine actual purchase behavior.",
+      "categorySlug": "email-marketing-data",
+      "categoryLabel": "Email Marketing Data",
+      "datePublished": "2026-02-19",
+      "dateModified": "2026-02-19",
+      "url": "https://ecommercedataanalytics.com/articles/email-click-rate-doesnt-predict"
+    },
+    {
+      "slug": "measure-abandoned-cart-email-incremental",
+      "title": "How to Measure Abandoned Cart Email Incremental Lift",
+      "metaDescription": "Learn to measure abandoned cart email effectiveness with A/B testing that reveals true incremental lift versus organic recovery. Data-driven methodology inside.",
+      "categorySlug": "email-marketing-data",
+      "categoryLabel": "Email Marketing Data",
+      "datePublished": "2026-02-18",
+      "dateModified": "2026-02-18",
+      "url": "https://ecommercedataanalytics.com/articles/measure-abandoned-cart-email-incremental"
+    },
+    {
+      "slug": "calculate-true-roas-including-refunds",
+      "title": "How to Calculate True ROAS Including Refunds and Returns",
+      "metaDescription": "Learn to calculate true ROAS refunds by adjusting for returns, chargebacks, and cancellations. Discover which ad campaigns actually drive profitable customers.",
+      "categorySlug": "advertising-data",
+      "categoryLabel": "Advertising Data",
+      "datePublished": "2026-02-16",
+      "dateModified": "2026-02-16",
+      "url": "https://ecommercedataanalytics.com/articles/calculate-true-roas-including-refunds"
+    },
+    {
+      "slug": "audit-facebook-ads-reporting-discrepancies",
+      "title": "How to Audit Facebook Ads Reporting Discrepancies",
+      "metaDescription": "Learn a systematic process to reconcile Facebook ads reporting discrepancies with Shopify orders. Fix attribution windows and duplicate tracking issues.",
+      "categorySlug": "advertising-data",
+      "categoryLabel": "Advertising Data",
+      "datePublished": "2026-02-15",
+      "dateModified": "2026-02-15",
+      "url": "https://ecommercedataanalytics.com/articles/audit-facebook-ads-reporting-discrepancies"
+    },
+    {
+      "slug": "google-ads-conversion-rate-varies",
+      "title": "Why Your Google Ads Conversion Rate Varies by Time of Day",
+      "metaDescription": "Google Ads dayparting analysis reveals hourly conversion rate and AOV patterns. Learn to adjust bids based on profitability windows, not just click volume.",
+      "categorySlug": "advertising-data",
+      "categoryLabel": "Advertising Data",
+      "datePublished": "2026-02-13",
+      "dateModified": "2026-02-13",
+      "url": "https://ecommercedataanalytics.com/articles/google-ads-conversion-rate-varies"
+    },
+    {
+      "slug": "track-new-customer-acquisition-cost",
+      "title": "How to Track New Customer Acquisition Cost by Channel",
+      "metaDescription": "Learn how to calculate new customer acquisition cost by channel to find which paid platforms grow your customer base versus retarget existing buyers.",
+      "categorySlug": "advertising-data",
+      "categoryLabel": "Advertising Data",
+      "datePublished": "2026-02-12",
+      "dateModified": "2026-02-12",
+      "url": "https://ecommercedataanalytics.com/articles/track-new-customer-acquisition-cost"
+    },
+    {
+      "slug": "measure-incrementality-retargeting-spend",
+      "title": "How to Measure Incrementality of Your Retargeting Spend",
+      "metaDescription": "Learn retargeting incrementality testing with holdout groups to find what percentage of conversions would happen without ads. Stop paying for inevitable purchases.",
+      "categorySlug": "advertising-data",
+      "categoryLabel": "Advertising Data",
+      "datePublished": "2026-02-10",
+      "dateModified": "2026-02-10",
+      "url": "https://ecommercedataanalytics.com/articles/measure-incrementality-retargeting-spend"
+    },
+    {
+      "slug": "ad-platform-cpa-hides-profitability",
+      "title": "What Your Ad Platform CPA Hides About Profitability",
+      "metaDescription": "Ad platform CPA profitability metrics hide AOV variance, shipping costs, and COGS differences. Learn the contribution margin framework that reveals true profit.",
+      "categorySlug": "advertising-data",
+      "categoryLabel": "Advertising Data",
+      "datePublished": "2026-02-09",
+      "dateModified": "2026-02-09",
+      "url": "https://ecommercedataanalytics.com/articles/ad-platform-cpa-hides-profitability"
+    },
+    {
+      "slug": "calculate-sms-marketing-roi-beyond",
+      "title": "How to Calculate SMS Marketing ROI Beyond Click Revenue",
+      "metaDescription": "Learn to calculate SMS marketing ROI using a full-funnel model that accounts for list growth costs, carrier fees, compliance overhead, and lifetime value impact.",
+      "categorySlug": "sms-data",
+      "categoryLabel": "SMS Data",
+      "datePublished": "2026-02-07",
+      "dateModified": "2026-02-07",
+      "url": "https://ecommercedataanalytics.com/articles/calculate-sms-marketing-roi-beyond"
+    },
+    {
+      "slug": "subscriber-growth-rate-signals-sms",
+      "title": "What Subscriber Growth Rate Signals SMS List Health",
+      "metaDescription": "Learn which SMS subscriber growth rate benchmarks indicate a healthy list versus one burning out. Includes opt-in thresholds, velocity targets, and opt-out warning signs.",
+      "categorySlug": "sms-data",
+      "categoryLabel": "SMS Data",
+      "datePublished": "2026-02-06",
+      "dateModified": "2026-02-06",
+      "url": "https://ecommercedataanalytics.com/articles/subscriber-growth-rate-signals-sms"
+    },
+    {
+      "slug": "measure-sms-cannibalization-email-revenue",
+      "title": "How to Measure SMS Cannibalization of Email Revenue",
+      "metaDescription": "Learn testing methodology to measure SMS email channel cannibalization. Determine if SMS steals email conversions or generates incremental revenue with proper holdout tests.",
+      "categorySlug": "sms-data",
+      "categoryLabel": "SMS Data",
+      "datePublished": "2026-02-05",
+      "dateModified": "2026-02-05",
+      "url": "https://ecommercedataanalytics.com/articles/measure-sms-cannibalization-email-revenue"
+    },
+    {
+      "slug": "track-sms-contribution-customer-segment",
+      "title": "How to Track SMS Contribution by Customer Segment",
+      "metaDescription": "Learn to track SMS customer segments using cohort analysis. Compare VIP versus one-time buyer performance to identify which tiers justify higher SMS costs.",
+      "categorySlug": "sms-data",
+      "categoryLabel": "SMS Data",
+      "datePublished": "2026-02-03",
+      "dateModified": "2026-02-03",
+      "url": "https://ecommercedataanalytics.com/articles/track-sms-contribution-customer-segment"
+    },
+    {
+      "slug": "sms-conversion-rate-drops-after",
+      "title": "Why Your SMS Conversion Rate Drops After the First Month",
+      "metaDescription": "SMS conversion rate decline hits most ecommerce brands hard after 30 days. Learn the message fatigue patterns and frequency optimization tactics that prevent subscriber burnout.",
+      "categorySlug": "sms-data",
+      "categoryLabel": "SMS Data",
+      "datePublished": "2026-02-02",
+      "dateModified": "2026-02-02",
+      "url": "https://ecommercedataanalytics.com/articles/sms-conversion-rate-drops-after"
+    },
+    {
+      "slug": "compare-sms-providers-using-revenue",
+      "title": "How to Compare SMS Providers Using Revenue Metrics",
+      "metaDescription": "Learn how to compare SMS marketing providers like Attentive, Postscript, and Klaviyo using revenue metrics, deliverability testing, and incremental lift measurement.",
+      "categorySlug": "sms-data",
+      "categoryLabel": "SMS Data",
+      "datePublished": "2026-01-31",
+      "dateModified": "2026-01-31",
+      "url": "https://ecommercedataanalytics.com/articles/compare-sms-providers-using-revenue"
+    },
+    {
+      "slug": "calculate-customer-ltv-productbased-businesses",
+      "title": "How to Calculate Customer LTV for Product-Based Businesses",
+      "metaDescription": "Learn to calculate customer LTV for ecommerce with SKU-level margins, channel retention curves, and purchase frequency. Step-by-step formulas included.",
+      "categorySlug": "unit-economics",
+      "categoryLabel": "Unit Economics",
+      "datePublished": "2026-01-30",
+      "dateModified": "2026-01-30",
+      "url": "https://ecommercedataanalytics.com/articles/calculate-customer-ltv-productbased-businesses"
+    },
+    {
+      "slug": "contribution-margin-per-order-matters",
+      "title": "Why Your Contribution Margin Per Order Matters More Than AOV",
+      "metaDescription": "Contribution margin per order reveals true profitability that AOV hides. Learn why chasing higher order values can destroy margins and what to optimize instead.",
+      "categorySlug": "unit-economics",
+      "categoryLabel": "Unit Economics",
+      "datePublished": "2026-01-28",
+      "dateModified": "2026-01-28",
+      "url": "https://ecommercedataanalytics.com/articles/contribution-margin-per-order-matters"
+    },
+    {
+      "slug": "build-cohortbased-ltv-projection-model",
+      "title": "How to Build a Cohort-Based LTV Projection Model",
+      "metaDescription": "Learn to build a cohort LTV projection model in spreadsheets. Calculate CAC payback periods and allocate channel budgets with accurate customer value forecasts.",
+      "categorySlug": "unit-economics",
+      "categoryLabel": "Unit Economics",
+      "datePublished": "2026-01-27",
+      "dateModified": "2026-01-27",
+      "url": "https://ecommercedataanalytics.com/articles/build-cohortbased-ltv-projection-model"
+    },
+    {
+      "slug": "cac-payback-period-acceptable-store",
+      "title": "What CAC Payback Period Is Acceptable for Your Store",
+      "metaDescription": "Your CAC payback period target depends on cash flow, growth stage, and funding. Learn the framework to set realistic payback windows for your ecommerce store.",
+      "categorySlug": "unit-economics",
+      "categoryLabel": "Unit Economics",
+      "datePublished": "2026-01-25",
+      "dateModified": "2026-01-25",
+      "url": "https://ecommercedataanalytics.com/articles/cac-payback-period-acceptable-store"
+    },
+    {
+      "slug": "calculate-productlevel-profitability-accurately",
+      "title": "How to Calculate Product-Level Profitability Accurately",
+      "metaDescription": "Learn to calculate product level profitability using full-cost accounting. Allocate shipping, returns, and channel fees to each SKU to find your real winners.",
+      "categorySlug": "unit-economics",
+      "categoryLabel": "Unit Economics",
+      "datePublished": "2026-01-24",
+      "dateModified": "2026-01-24",
+      "url": "https://ecommercedataanalytics.com/articles/calculate-productlevel-profitability-accurately"
+    },
+    {
+      "slug": "track-net-revenue-retention-ecommerce",
+      "title": "How to Track Net Revenue Retention for Ecommerce",
+      "metaDescription": "Learn how to adapt SaaS net revenue retention metrics for ecommerce. Track whether existing customers spend more over time and measure repeat purchase health.",
+      "categorySlug": "unit-economics",
+      "categoryLabel": "Unit Economics",
+      "datePublished": "2026-01-22",
+      "dateModified": "2026-01-22",
+      "url": "https://ecommercedataanalytics.com/articles/track-net-revenue-retention-ecommerce"
+    }
+  ],
+  "categories": [
+    {
+      "slug": "web-analytics",
+      "label": "Web analytics",
+      "url": "https://ecommercedataanalytics.com/web-analytics"
+    },
+    {
+      "slug": "email-marketing-data",
+      "label": "email marketing data",
+      "url": "https://ecommercedataanalytics.com/email-marketing-data"
+    },
+    {
+      "slug": "advertising-data",
+      "label": "advertising data",
+      "url": "https://ecommercedataanalytics.com/advertising-data"
+    },
+    {
+      "slug": "sms-data",
+      "label": "sms data",
+      "url": "https://ecommercedataanalytics.com/sms-data"
+    },
+    {
+      "slug": "unit-economics",
+      "label": "unit economics",
+      "url": "https://ecommercedataanalytics.com/unit-economics"
+    }
+  ],
+  "_instructions": [
+    "This file is a reference for all SEO metadata in the generated site.",
+    "To update SEO, edit the articles.ts file and regenerate."
+  ]
+}
