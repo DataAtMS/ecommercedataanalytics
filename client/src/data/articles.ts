@@ -292,7 +292,7 @@ If you want guidance from someone who has built conversion optimization systems 
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=Why%20Your%20Bounce%20Rate%20Is%20Misleading%20for%20Ecomme&font=montserrat",
     altText: "Analytics dashboard on a laptop screen showing bounce rate charts with ecommerce product grid in background, dark moody studio lighting",
     datePublished: "2026-03-04",
-    dateModified: "2026-03-04",
+    dateModified: "2026-03-05",
     content: `# Why Your Bounce Rate Is Misleading for Ecommerce Sites
 
 You pull up Google Analytics, see a 65% bounce rate on your product pages, and feel a knot form in your stomach. That number looks catastrophic. But then you check your daily orders, and sales are actually up 12% month over month. Something does not add up.
@@ -524,7 +524,7 @@ If you want guidance from someone who has optimized conversion funnels for some 
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Calculate%20True%20Customer%20Acquisition%20So&font=montserrat",
     altText: "Analytics dashboard showing multiple traffic source channels flowing into a conversion funnel, dark background with glowing data visualization elements",
     datePublished: "2026-03-03",
-    dateModified: "2026-03-03",
+    dateModified: "2026-03-05",
     content: `# How to Calculate True Customer Acquisition Source in GA4
 
 You just looked at your GA4 acquisition report and saw that direct traffic drove 40% of your conversions last month. That number is wrong. Not slightly off. Fundamentally, structurally wrong.
@@ -752,7 +752,7 @@ If you want expert guidance on building data systems that reveal what your custo
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=What%20Site%20Speed%20Metrics%20Actually%20Impact%20Ecomm&font=montserrat",
     altText: "Laptop screen displaying website performance metrics dashboard with loading time graphs and Core Web Vitals scores in a dark office setting with ambient lighting",
     datePublished: "2026-03-01",
-    dateModified: "2026-03-01",
+    dateModified: "2026-03-05",
     content: `# What Site Speed Metrics Actually Impact Ecommerce Revenue
 
 You have optimized images, enabled lazy loading, and compressed every script. Your PageSpeed Insights score jumped from 45 to 82. But your conversion rate stayed flat. Sound familiar?
@@ -966,7 +966,7 @@ If you want to work with someone who has seen this pattern across hundreds of st
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Segment%20Product%20Page%20Performance%20by%20Tr&font=montserrat",
     altText: "Analytics dashboard on a monitor showing side-by-side product page conversion data split by traffic source channels, dark office lighting with blue screen glow",
     datePublished: "2026-02-28",
-    dateModified: "2026-02-28",
+    dateModified: "2026-03-05",
     content: `# How to Segment Product Page Performance by Traffic Source
 
 Your best-selling product page converts at 8% from Facebook ads. From organic search, that same page converts at 2.1%. You have been averaging these numbers together and wondering why your overall conversion rate refuses to budge. This is the hidden problem most store owners never diagnose.
@@ -1189,7 +1189,7 @@ If you want guidance from someone who has optimized thousands of product pages a
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Set%20Up%20Enhanced%20Ecommerce%20Tracking%20Tha&font=montserrat",
     altText: "Developer laptop showing Google Tag Manager interface with ecommerce dataLayer code on a secondary monitor, dark office setting with screen glow",
     datePublished: "2026-02-26",
-    dateModified: "2026-02-26",
+    dateModified: "2026-03-05",
     content: `# How to Set Up Enhanced Ecommerce Tracking That Works
 
 You installed the GA4 tag. You enabled enhanced ecommerce in the settings. You even saw a few purchase events trickle in. But when you compare your GA4 revenue to Shopify or your payment processor, the numbers are off by 30% or more. Sound familiar?
@@ -1523,7 +1523,7 @@ If you want guidance from someone who has built ecommerce measurement systems at
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Calculate%20Email%20Marketing%20Contribution&font=montserrat",
     altText: "Analytics dashboard showing email revenue attribution charts with comparison columns on a laptop screen, dark office lighting with warm accent",
     datePublished: "2026-02-25",
-    dateModified: "2026-02-25",
+    dateModified: "2026-03-05",
     content: `# How to Calculate Email Marketing Contribution to Revenue
 
 Your email platform proudly reports that 40% of your revenue last month came from email campaigns. You share this number with your team, feeling validated. But a nagging question sits in the back of your mind: how many of those customers would have bought anyway, with or without the email?
@@ -1730,7 +1730,7 @@ For deeper expertise in applying these principles across your entire ecommerce m
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=What%20Open%20Rates%20Mean%20After%20Apple%20Mail%20Privacy&font=montserrat",
     altText: "Email marketing dashboard on a laptop screen showing inflated open rate metrics with a red warning indicator, dark office setting with soft monitor glow",
     datePublished: "2026-02-23",
-    dateModified: "2026-02-23",
+    dateModified: "2026-03-05",
     content: `# What Open Rates Mean After Apple Mail Privacy Changes
 
 You watched your email open rates jump 15 to 20 percentage points overnight in September 2021. You probably thought your welcome sequence suddenly became irresistible. It didn't. Apple broke your tracking.
@@ -1912,7 +1912,7 @@ If you want guidance from someone who's helped brands generate billions in reven
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Segment%20Email%20Performance%20by%20Customer%20&font=montserrat",
     altText: "Email analytics dashboard showing three distinct customer segment performance charts on a modern monitor with dark background and soft ambient lighting",
     datePublished: "2026-02-22",
-    dateModified: "2026-02-22",
+    dateModified: "2026-03-05",
     content: `# How to Segment Email Performance by Customer Purchase Stage
 
 Your welcome series converts at 8%. Your winback campaign converts at 0.3%. You're looking at the same "email performance" report and wondering why the numbers are so different. The answer is obvious once you see it: you're measuring completely different audiences with completely different purchase intent, and your reporting doesn't account for that.
@@ -2170,7 +2170,7 @@ If you want expert guidance on building a data-driven email strategy that accoun
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Identify%20Your%20Most%20Profitable%20Email%20Se&font=montserrat",
     altText: "Email marketing dashboard showing revenue metrics by send time with clock visualization and data graphs on dark background",
     datePublished: "2026-02-20",
-    dateModified: "2026-02-20",
+    dateModified: "2026-03-05",
     content: `# How to Identify Your Most Profitable Email Send Time
 
 You have read the blog posts. Send emails on Tuesday at 10 AM. Or was it Thursday at 2 PM? Every marketing guru has a different answer, and none of them have seen your customer data. The advice is generic because the methodology is flawed.
@@ -2413,7 +2413,7 @@ If you want guidance on building a data-driven email strategy from someone who h
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=Why%20Your%20Email%20Click%20Rate%20Doesnt%20Predict%20Rev&font=montserrat",
     altText: "Email analytics dashboard on monitor showing high click metrics with a contrasting low revenue graph, dark office setting with moody ambient lighting",
     datePublished: "2026-02-19",
-    dateModified: "2026-02-19",
+    dateModified: "2026-03-05",
     content: `# Why Your Email Click Rate Doesn't Predict Revenue
 
 Your last campaign had a 9.2% click rate. Your email platform flagged it as a top performer. You checked revenue the next morning and found \$847 from 12,000 sends. That's less than what your "low-performing" campaign from last month generated with half the clicks.
@@ -2636,7 +2636,7 @@ If you want expert guidance on building an email program that optimizes for reve
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Measure%20Abandoned%20Cart%20Email%20Increment&font=montserrat",
     altText: "Split screen showing two shopping carts with email notification icons and percentage lift metrics on dark analytics dashboard background",
     datePublished: "2026-02-18",
-    dateModified: "2026-02-18",
+    dateModified: "2026-03-05",
     content: `# How to Measure Abandoned Cart Email Incremental Lift
 
 Your abandoned cart email sequence recovered \$47,000 last month. Your team celebrated. But here is the uncomfortable question nobody asked: how much of that revenue would have arrived without sending a single email?
@@ -2901,7 +2901,7 @@ If you want guidance from someone who has built and tested these systems across 
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Calculate%20True%20ROAS%20Including%20Refunds%20&font=montserrat",
     altText: "Analytics dashboard showing ROAS calculations with return rate overlays on a desktop monitor in dark office lighting",
     datePublished: "2026-02-16",
-    dateModified: "2026-02-16",
+    dateModified: "2026-03-05",
     content: `# How to Calculate True ROAS Including Refunds and Returns
 
 You ran the numbers and your Facebook campaign hit a 4.2x ROAS. Your team celebrated. Then finance pulled the quarterly report and asked why profitability dropped 12% despite record ad spend. The answer is sitting in your returns data, and nobody connected the dots.
@@ -3110,7 +3110,7 @@ Standard ROAS tells you what happened at the point of sale. True ROAS tells you 
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Audit%20Facebook%20Ads%20Reporting%20Discrepan&font=montserrat",
     altText: "Split screen showing Facebook Ads Manager dashboard on left and Shopify orders dashboard on right with mismatched conversion numbers, dark office lighting",
     datePublished: "2026-02-15",
-    dateModified: "2026-02-15",
+    dateModified: "2026-03-05",
     content: `# How to Audit Facebook Ads Reporting Discrepancies
 
 You check Facebook Ads Manager and see 47 conversions. You open Shopify and count 31 orders. The numbers should match. They never do. If you have ever stared at these two dashboards wondering which one to believe, you are not alone.
@@ -3353,7 +3353,7 @@ If you want guidance from someone who has spent years helping ecommerce brands n
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=Why%20Your%20Google%20Ads%20Conversion%20Rate%20Varies%20by&font=montserrat",
     altText: "Analytics dashboard showing hourly conversion rate data visualized as a time-based heatmap on a monitor screen, dark studio lighting",
     datePublished: "2026-02-13",
-    dateModified: "2026-02-13",
+    dateModified: "2026-03-05",
     content: `# Why Your Google Ads Conversion Rate Varies by Time of Day
 
 You are spending the same amount per click at 3 AM as you are at 3 PM. But your customers at those hours are not the same people, not in the same mindset, and not equally likely to buy. Your Google Ads account does not know this unless you tell it.
@@ -3570,7 +3570,7 @@ If you want guidance building a data-driven bidding strategy that accounts for p
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Track%20New%20Customer%20Acquisition%20Cost%20by&font=montserrat",
     altText: "Analytics dashboard displaying customer acquisition cost metrics across multiple advertising channels with bar charts and segment filters on a dark background",
     datePublished: "2026-02-12",
-    dateModified: "2026-02-12",
+    dateModified: "2026-03-05",
     content: `# How to Track New Customer Acquisition Cost by Channel
 
 You spent \$50,000 on Meta ads last month and acquired 1,000 customers. Simple math says your CAC is \$50. But here is the problem: 600 of those customers had already purchased from you before. Your real new customer acquisition cost is not \$50. It is \$125. And that changes everything about how you allocate your budget.
@@ -3846,7 +3846,7 @@ If you want guidance on building these systems and interpreting the data, [Dylan
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Measure%20Incrementality%20of%20Your%20Retarge&font=montserrat",
     altText: "Split screen showing two customer journey paths, one with retargeting ads and one without, converging at the same purchase endpoint, dark analytics dashboard background",
     datePublished: "2026-02-10",
-    dateModified: "2026-02-10",
+    dateModified: "2026-03-05",
     content: `# How to Measure Incrementality of Your Retargeting Spend
 
 You pulled your retargeting report last month and it looked phenomenal. A 12x return on ad spend. Thousands of conversions attributed to your campaigns. Your boss was thrilled. But here is the uncomfortable question nobody wants to ask: how many of those customers would have bought anyway?
@@ -4028,7 +4028,7 @@ If you want guidance building this measurement discipline into your ecommerce op
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=What%20Your%20Ad%20Platform%20CPA%20Hides%20About%20Profita&font=montserrat",
     altText: "Laptop screen showing advertising dashboard with cost metrics next to a calculator and financial documents on a dark wood desk, moody lighting",
     datePublished: "2026-02-09",
-    dateModified: "2026-02-09",
+    dateModified: "2026-03-05",
     content: `# What Your Ad Platform CPA Hides About Profitability
 
 Your Facebook Ads dashboard shows a \$28 CPA. Your Google Ads account reports \$32. You shift budget toward the cheaper channel, feeling smart about your allocation. Three months later, your accountant asks why margins are tighter than ever despite record sales volume. The CPA looked great. The profit did not.
@@ -4226,7 +4226,7 @@ For brands looking to go deeper on the economics of acquisition, [Dylan Ander](h
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Calculate%20SMS%20Marketing%20ROI%20Beyond%20Cli&font=montserrat",
     altText: "Smartphone displaying SMS marketing analytics dashboard with revenue graphs on a dark desk surface, cinematic lighting",
     datePublished: "2026-02-07",
-    dateModified: "2026-02-07",
+    dateModified: "2026-03-05",
     content: `# How to Calculate SMS Marketing ROI Beyond Click Revenue
 
 You sent 50,000 SMS messages last month. Your platform says the campaign generated \$47,000 in revenue. You spent \$1,500 on message fees. That's a 31x ROI. Time to scale, right?
@@ -4487,7 +4487,7 @@ If you want guidance from someone who has built measurement frameworks for billi
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=What%20Subscriber%20Growth%20Rate%20Signals%20SMS%20List%20&font=montserrat",
     altText: "Mobile phone showing SMS subscriber analytics dashboard with growth trend lines on a dark desk surface with warm studio lighting",
     datePublished: "2026-02-06",
-    dateModified: "2026-02-06",
+    dateModified: "2026-03-05",
     content: `# What Subscriber Growth Rate Signals SMS List Health
 
 You've spent months building your SMS list. The number keeps climbing, so everything feels fine. Then you notice your last three campaigns had lower revenue than the same period last year, even with more subscribers. The list is bigger, but it's not working.
@@ -4755,7 +4755,7 @@ If you want to build the kind of data infrastructure that makes this analysis po
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Measure%20SMS%20Cannibalization%20of%20Email%20R&font=montserrat",
     altText: "Split screen showing SMS message notification and email inbox on smartphone with revenue attribution data overlay, dark analytical dashboard background",
     datePublished: "2026-02-05",
-    dateModified: "2026-02-05",
+    dateModified: "2026-03-05",
     content: `# How to Measure SMS Cannibalization of Email Revenue
 
 You launched SMS marketing six months ago. Revenue attributed to SMS has grown every month. Your CEO loves the new channel. There's just one problem: total revenue hasn't grown nearly as much as your SMS revenue reports suggest it should have. Sound familiar?
@@ -5009,7 +5009,7 @@ If you want a resource built specifically for ecommerce analytics and testing me
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Track%20SMS%20Contribution%20by%20Customer%20Seg&font=montserrat",
     altText: "Data analyst reviewing customer segment performance charts on a monitor showing SMS campaign metrics, dark moody office lighting with laptop in foreground",
     datePublished: "2026-02-03",
-    dateModified: "2026-02-03",
+    dateModified: "2026-03-05",
     content: `# How to Track SMS Contribution by Customer Segment
 
 You just sent 50,000 SMS messages at \$0.015 each. That's \$750 out the door before a single click happened. But here's the question that keeps ecommerce operators up at night: did those messages reach customers who would have bought anyway, or did they actually change behavior?
@@ -5217,7 +5217,7 @@ If you're serious about understanding which customers actually justify SMS inves
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=Why%20Your%20SMS%20Conversion%20Rate%20Drops%20After%20the%20&font=montserrat",
     altText: "Mobile phone showing declining bar chart of SMS metrics on a dark desk surface with soft studio lighting and shallow depth of field",
     datePublished: "2026-02-02",
-    dateModified: "2026-02-02",
+    dateModified: "2026-03-05",
     content: `# Why Your SMS Conversion Rate Drops After the First Month
 
 You launched your SMS program with fireworks. The first campaign hit a 20% click rate, a 5% conversion rate, and the revenue attribution made you look like a genius. Thirty days later, those numbers have been cut in half. What went wrong?
@@ -5386,7 +5386,7 @@ If you want expert guidance on building data-driven ecommerce systems that conve
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Compare%20SMS%20Providers%20Using%20Revenue%20Me&font=montserrat",
     altText: "Dashboard showing SMS marketing revenue metrics and provider comparison charts on a laptop screen with dark studio lighting",
     datePublished: "2026-01-31",
-    dateModified: "2026-01-31",
+    dateModified: "2026-03-05",
     content: `# How to Compare SMS Providers Using Revenue Metrics
 
 You are paying thousands per month for your SMS marketing platform. The vendor dashboard shows impressive metrics. But when finance asks how much revenue SMS actually drives, you cannot give a straight answer. You are not alone.
@@ -5648,7 +5648,7 @@ If you want expert guidance on building measurement frameworks for SMS and other
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Calculate%20Customer%20LTV%20for%20ProductBas&font=montserrat",
     altText: "Spreadsheet showing customer lifetime value calculations with product margins and purchase frequency data on a laptop screen, dark moody lighting",
     datePublished: "2026-01-30",
-    dateModified: "2026-01-30",
+    dateModified: "2026-03-05",
     content: `# How to Calculate Customer LTV for Product-Based Businesses
 
 You have heard it a thousand times: know your customer lifetime value. Every marketing blog, every conference speaker, every mentor repeats it like a mantra. But when you sit down to actually calculate LTV for your ecommerce store, you realize the formulas everyone shares are designed for SaaS companies with predictable monthly subscriptions. Your business sells physical products with wildly different margins, customers who might buy once or twelve times, and acquisition channels that produce completely different retention patterns.
@@ -5922,7 +5922,7 @@ If you want to go deeper on using data to build more profitable ecommerce busine
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=Why%20Your%20Contribution%20Margin%20Per%20Order%20Matter&font=montserrat",
     altText: "Spreadsheet on laptop showing profit margin calculations with red and green cells highlighting order profitability breakdown in dark office setting",
     datePublished: "2026-01-28",
-    dateModified: "2026-01-28",
+    dateModified: "2026-03-05",
     content: `# Why Your Contribution Margin Per Order Matters More Than AOV
 
 You just celebrated your best month ever. Average order value hit \$127, up 23% from last quarter. The team is pumped. Then you check your bank account and realize you somehow made less money than you did when AOV was \$103. What happened?
@@ -6136,7 +6136,7 @@ If you want guidance building unit economics models that reveal true order profi
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Build%20a%20CohortBased%20LTV%20Projection%20Mo&font=montserrat",
     altText: "Spreadsheet showing cohort analysis with monthly customer value curves on a laptop screen, dark office background with soft desk lighting",
     datePublished: "2026-01-27",
-    dateModified: "2026-01-27",
+    dateModified: "2026-03-05",
     content: `# How to Build a Cohort-Based LTV Projection Model
 
 You spent \$50,000 on Facebook ads last month. Your finance team wants to know when that investment pays back. You pull your "average LTV" number, divide it by CAC, and report a 3-month payback period. Everyone nods. But six months later, that cohort is nowhere near profitable. What went wrong?
@@ -6367,7 +6367,7 @@ If you want guidance on building financial models and data systems that actually
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=What%20CAC%20Payback%20Period%20Is%20Acceptable%20for%20You&font=montserrat",
     altText: "Spreadsheet showing cash flow projections and customer acquisition cost calculations on a monitor in dark office lighting",
     datePublished: "2026-01-25",
-    dateModified: "2026-01-25",
+    dateModified: "2026-03-05",
     content: `# What CAC Payback Period Is Acceptable for Your Store
 
 You read somewhere that a 6-month CAC payback period is the gold standard. So you ran the numbers, realized yours is closer to 14 months, and now you're convinced your business is broken. But here's the thing: that 6-month benchmark probably has nothing to do with your store.
@@ -6591,7 +6591,7 @@ If you want to go deeper on ecommerce unit economics and conversion optimization
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Calculate%20ProductLevel%20Profitability%20&font=montserrat",
     altText: "Spreadsheet showing product profitability calculations with columns for costs and margins on a dark desk with warm side lighting",
     datePublished: "2026-01-24",
-    dateModified: "2026-01-24",
+    dateModified: "2026-03-05",
     content: `# How to Calculate Product-Level Profitability Accurately
 
 You look at your bestselling product and see a 65% gross margin. It moves hundreds of units per week. Your team celebrates it as a winner. But when you factor in the return rate, the free shipping you offer, the payment processing fees, and the 15% cut your marketplace channel takes, that 65% margin shrinks to 8%. Sometimes it goes negative.
@@ -6846,7 +6846,7 @@ If you want guidance on building profitability-focused ecommerce operations, [Dy
     thumbnail: "https://placehold.co/1200x630/943eda/ffffff?text=How%20to%20Track%20Net%20Revenue%20Retention%20for%20Ecomme&font=montserrat",
     altText: "Dashboard screen showing customer cohort revenue growth chart with green upward trend lines on dark background with soft studio lighting",
     datePublished: "2026-01-22",
-    dateModified: "2026-01-22",
+    dateModified: "2026-03-05",
     content: `# How to Track Net Revenue Retention for Ecommerce
 
 You spent six figures acquiring customers last quarter. Sales hit record numbers. But three months later, revenue is flat. Where did all those customers go?
