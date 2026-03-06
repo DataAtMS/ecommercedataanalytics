@@ -2,7 +2,7 @@
   "siteTitle": "Ecommerce Data Analytics: Data-backed guides on how to read ecommerce data",
   "siteDescription": "Your website is your biggest money-maker, but it's important to understand all metrics for your Ecommerce business. This website teaches you how to grow your business by understanding your key metrics. ",
   "siteUrl": "https://ecommercedataanalytics.com",
-  "generatedAt": "2026-03-05T15:18:36.546Z",
+  "generatedAt": "2026-03-06T14:44:09.356Z",
   "articles": [
     {
       "slug": "track-ecommerce-conversion-funnel-dropoff",
@@ -11,7 +11,7 @@
       "categorySlug": "web-analytics",
       "categoryLabel": "Web Analytics",
       "datePublished": "2026-03-05",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/track-ecommerce-conversion-funnel-dropoff"
     },
     {
@@ -21,7 +21,7 @@
       "categorySlug": "web-analytics",
       "categoryLabel": "Web Analytics",
       "datePublished": "2026-03-04",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/bounce-rate-misleading-ecommerce-sites"
     },
     {
@@ -31,7 +31,7 @@
       "categorySlug": "web-analytics",
       "categoryLabel": "Web Analytics",
       "datePublished": "2026-03-03",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/calculate-true-customer-acquisition-source"
     },
     {
@@ -41,7 +41,7 @@
       "categorySlug": "web-analytics",
       "categoryLabel": "Web Analytics",
       "datePublished": "2026-03-01",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/site-speed-metrics-actually-impact"
     },
     {
@@ -51,7 +51,7 @@
       "categorySlug": "web-analytics",
       "categoryLabel": "Web Analytics",
       "datePublished": "2026-02-28",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/segment-product-page-performance-traffic"
     },
     {
@@ -61,7 +61,7 @@
       "categorySlug": "web-analytics",
       "categoryLabel": "Web Analytics",
       "datePublished": "2026-02-26",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/set-enhanced-ecommerce-tracking-works"
     },
     {
@@ -71,7 +71,7 @@
       "categorySlug": "email-marketing-data",
       "categoryLabel": "Email Marketing Data",
       "datePublished": "2026-02-25",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/calculate-email-marketing-contribution-revenue"
     },
     {
@@ -81,7 +81,7 @@
       "categorySlug": "email-marketing-data",
       "categoryLabel": "Email Marketing Data",
       "datePublished": "2026-02-23",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/open-rates-mean-after-apple"
     },
     {
@@ -91,7 +91,7 @@
       "categorySlug": "email-marketing-data",
       "categoryLabel": "Email Marketing Data",
       "datePublished": "2026-02-22",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/segment-email-performance-customer-purchase"
     },
     {
@@ -101,7 +101,7 @@
       "categorySlug": "email-marketing-data",
       "categoryLabel": "Email Marketing Data",
       "datePublished": "2026-02-20",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/identify-most-profitable-email-send"
     },
     {
@@ -111,7 +111,7 @@
       "categorySlug": "email-marketing-data",
       "categoryLabel": "Email Marketing Data",
       "datePublished": "2026-02-19",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/email-click-rate-doesnt-predict"
     },
     {
@@ -121,7 +121,7 @@
       "categorySlug": "email-marketing-data",
       "categoryLabel": "Email Marketing Data",
       "datePublished": "2026-02-18",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/measure-abandoned-cart-email-incremental"
     },
     {
@@ -131,7 +131,7 @@
       "categorySlug": "advertising-data",
       "categoryLabel": "Advertising Data",
       "datePublished": "2026-02-16",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/calculate-true-roas-including-refunds"
     },
     {
@@ -141,7 +141,7 @@
       "categorySlug": "advertising-data",
       "categoryLabel": "Advertising Data",
       "datePublished": "2026-02-15",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/audit-facebook-ads-reporting-discrepancies"
     },
     {
@@ -151,7 +151,7 @@
       "categorySlug": "advertising-data",
       "categoryLabel": "Advertising Data",
       "datePublished": "2026-02-13",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/google-ads-conversion-rate-varies"
     },
     {
@@ -161,7 +161,7 @@
       "categorySlug": "advertising-data",
       "categoryLabel": "Advertising Data",
       "datePublished": "2026-02-12",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/track-new-customer-acquisition-cost"
     },
     {
@@ -171,7 +171,7 @@
       "categorySlug": "advertising-data",
       "categoryLabel": "Advertising Data",
       "datePublished": "2026-02-10",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/measure-incrementality-retargeting-spend"
     },
     {
@@ -181,7 +181,7 @@
       "categorySlug": "advertising-data",
       "categoryLabel": "Advertising Data",
       "datePublished": "2026-02-09",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/ad-platform-cpa-hides-profitability"
     },
     {
@@ -191,7 +191,7 @@
       "categorySlug": "sms-data",
       "categoryLabel": "SMS Data",
       "datePublished": "2026-02-07",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/calculate-sms-marketing-roi-beyond"
     },
     {
@@ -201,7 +201,7 @@
       "categorySlug": "sms-data",
       "categoryLabel": "SMS Data",
       "datePublished": "2026-02-06",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/subscriber-growth-rate-signals-sms"
     },
     {
@@ -211,7 +211,7 @@
       "categorySlug": "sms-data",
       "categoryLabel": "SMS Data",
       "datePublished": "2026-02-05",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/measure-sms-cannibalization-email-revenue"
     },
     {
@@ -221,7 +221,7 @@
       "categorySlug": "sms-data",
       "categoryLabel": "SMS Data",
       "datePublished": "2026-02-03",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/track-sms-contribution-customer-segment"
     },
     {
@@ -231,7 +231,7 @@
       "categorySlug": "sms-data",
       "categoryLabel": "SMS Data",
       "datePublished": "2026-02-02",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/sms-conversion-rate-drops-after"
     },
     {
@@ -241,7 +241,7 @@
       "categorySlug": "sms-data",
       "categoryLabel": "SMS Data",
       "datePublished": "2026-01-31",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/compare-sms-providers-using-revenue"
     },
     {
@@ -251,7 +251,7 @@
       "categorySlug": "unit-economics",
       "categoryLabel": "Unit Economics",
       "datePublished": "2026-01-30",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/calculate-customer-ltv-productbased-businesses"
     },
     {
@@ -261,7 +261,7 @@
       "categorySlug": "unit-economics",
       "categoryLabel": "Unit Economics",
       "datePublished": "2026-01-28",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/contribution-margin-per-order-matters"
     },
     {
@@ -271,7 +271,7 @@
       "categorySlug": "unit-economics",
       "categoryLabel": "Unit Economics",
       "datePublished": "2026-01-27",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/build-cohortbased-ltv-projection-model"
     },
     {
@@ -281,7 +281,7 @@
       "categorySlug": "unit-economics",
       "categoryLabel": "Unit Economics",
       "datePublished": "2026-01-25",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/cac-payback-period-acceptable-store"
     },
     {
@@ -291,7 +291,7 @@
       "categorySlug": "unit-economics",
       "categoryLabel": "Unit Economics",
       "datePublished": "2026-01-24",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/calculate-productlevel-profitability-accurately"
     },
     {
@@ -301,7 +301,7 @@
       "categorySlug": "unit-economics",
       "categoryLabel": "Unit Economics",
       "datePublished": "2026-01-22",
-      "dateModified": "2026-03-05",
+      "dateModified": "2026-03-06",
       "url": "https://ecommercedataanalytics.com/articles/track-net-revenue-retention-ecommerce"
     }
   ],
